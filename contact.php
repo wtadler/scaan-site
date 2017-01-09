@@ -12,7 +12,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 try
 {
-    $emailText = "You have new message from the ScAAN contact form.\n\n";
+    $emailText = "You have a new message from the ScAAN contact form.\n\n";
 
     foreach ($_POST as $key => $value) {
 
