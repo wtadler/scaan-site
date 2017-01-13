@@ -14,11 +14,9 @@
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
         <!-- Custom styles for this template -->
         <link href="scaan.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
-
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -28,12 +26,30 @@
           ga('create', 'UA-89937713-1', 'auto');
           ga('send', 'pageview');
         </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="svg_to_inline.js"></script>  
     </head>
 
 <body>
     <div class="jumbotron">
         <div class="container">
-            <img src="img/logo_notbold_white.svg" class="title"/>
+		<nav class="navbar navbar-toggleable-xl navbar-inverse">
+			<img class="navbar-brand d-inline-block align-top" src="img/logo_notbold_white.svg" alt="">
+			<span class="nav-link nav-item active">Home</span>
+			<a class="nav-link nav-item" href="members.html">Members</a>
+		</nav>
+
+
+
+		<!-- <nav class="navbar navbar-inverse">
+    		<img class="navbar-brand d-inline-block align-top" width=100 src="img/logo_notbold_white.svg" alt="">
+    		
+		</nav>
+		 -->		<!-- <span class="nav-item nav-link active align-middle">Home</span> -->
+				<!-- <a class="nav-item nav-link align-middle" href="members.html">Members</a> -->
+	        <!-- </nav> -->
+
             <h1 class="title">Scientist Action and Advocacy Network</h1>
             <p>We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change.</p>
         </div>  
@@ -41,10 +57,36 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md">
+            <div class="col-md-7">
                 <h1 class="title">Action</h1>
                 <h3><em>Pro bono</em> science</h3>
                 <p>Our members are doctoral students, PhD-holding research scientists, and professors who donate their skilled labor and expertise to our partner organizations. We can help formulate questions that can be answered with data, analyze pre-existing data, and figure out how to act on the results. We can also serve as guides to particular domains of scientific knowledge.</p>
+
+                <div class="collapse" id="projects">
+                    <div class="media">
+                        <img class="d-flex align-self-start mr-3" src="img/raisetheage_square.png" width=100>
+                        <div class="media-body">
+                            <h4 class="mt-0">Raise the Age New York</h4>
+                            <p>Raise the Age NY is a non-governmental organization working to pass legislation which aims to improve the rights of convicted adolescents, including raising the age at which juveniles are tried as adults from 16 to 18. Currently, New York and North Carolina are the only two states in which 16 and 17 year-olds can be tried as adults and sentenced to adult jails and prisons rather than juvenile programs, severely affecting their re-entry, rehabilitation, and social development.</p>
+                            <p>ScAAN is compiling neuroscience and psychology research which suggests that juveniles are particularly receptive to rehabilitation and habit reformation, and moreover, that adolescents are affected in a long-term way by the social stress and trauma they often experience in adult detention centres. We are also working with RTA to visualize data from detention centres through informative infographics and charts. </p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <img class="d-flex align-self-start mr-3" src="img/ny4p.svg" width=100>
+                        <div class="media-body">
+                            <h4 class="mt-0">New Yorkers for Parks</h4>
+                            <p>Fusce cursus justo risus, laoreet aliquam enim pharetra et. Donec non lectus volutpat risus vulputate interdum. Duis convallis in mi sed volutpat. Aliquam diam ex, ornare nec augue nec, efficitur vehicula leo. Fusce ornare at dolor vel bibendum.</p>
+                            <p>Pellentesque at ante eget ligula mattis scelerisque eu non libero. Sed fringilla tempor est, ut ornare ipsum ultrices vel. Mauris venenatis risus molestie nulla congue, quis placerat sem porta. Pellentesque non ex in lacus tincidunt tincidunt nec eget neque. Duis venenatis sed odio eu iaculis. Donec vitae pellentesque urna. </p>
+                        </div>
+                    </div>
+
+                </div>
+                <p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#projects" aria-expanded="false" aria-controls="projects">
+                        Example projects
+                    </button>
+                </p>
+
 
 
             </div>
@@ -112,7 +154,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
