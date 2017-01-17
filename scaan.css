@@ -6,7 +6,6 @@ body {
 .title {
 	font-variant: small-caps;
 	margin-bottom: 1rem;
-	font-size: 2.5rem;
 	font-weight: 700;
 }
 
@@ -41,14 +40,19 @@ footer {
 .nav-link {
 	padding-left: 1.5rem;
 	padding-right: 0rem;
+	font-weight: 700;
 }
 
 a.nav-item {
-	color: #0275d8;
+	color: #81acff;
 }
 
 a.nav-item:hover {
 	color: #98d0ff;
+}
+
+.projectpartnerlogo {
+	width: 100px;
 }
 
 img.headshot {
