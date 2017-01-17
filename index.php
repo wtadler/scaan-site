@@ -21,13 +21,12 @@
             <h3><em>Pro bono</em> science</h3>
             <p>Our members are doctoral students, PhD-holding research scientists, and professors who donate their skilled labor and expertise to our partner organizations. We can help formulate questions that can be answered with data, analyze pre-existing data, and figure out how to act on the results. We can also serve as guides to particular domains of scientific knowledge.</p>
 
-            <h4>Ongoing projects</h4>
             <div id="accordion" role="tablist" aria-multiselectable="true">
               <div class="card topcard">
                 <div class="card-header" role="tab" id="headingOne">
                   <h5 class="mb-0">
-                    <a data-toggle="collapse" href="#rta" aria-expanded="false" aria-controls="rta">
-                      Raise the Age New York
+                    
+                      Current project: <a data-toggle="collapse" href="#rta" aria-expanded="false" aria-controls="rta">Raise the Age New York
                   </a>
               </h5>
           </div>
@@ -45,29 +44,6 @@
         </div>
     </div>
 
-    <div class="card bottomcard">
-        <div class="card-header" role="tab" id="headingOne">
-          <h5 class="mb-0">
-              <a data-toggle="collapse"  href="#ny4p" aria-expanded="false" aria-controls="ny4p">
-                  New Yorkers for Parks
-              </a>
-          </h5>
-      </div>
-
-      <div id="ny4p" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="card-block">
-              <div class="media">
-                <img class="d-flex align-self-start mr-3" src="img/ny4p.svg" width=100>
-                <div class="media-body">
-                    <p>Fusce cursus justo risus, laoreet aliquam enim pharetra et. Donec non lectus volutpat risus vulputate interdum. Duis convallis in mi sed volutpat. Aliquam diam ex, ornare nec augue nec, efficitur vehicula leo. Fusce ornare at dolor vel bibendum.</p>
-                    <p>Pellentesque at ante eget ligula mattis scelerisque eu non libero. Sed fringilla tempor est, ut ornare ipsum ultrices vel. Mauris venenatis risus molestie nulla congue, quis placerat sem porta. Pellentesque non ex in lacus tincidunt tincidunt nec eget neque. Duis venenatis sed odio eu iaculis. Donec vitae pellentesque urna. </p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
 
 
 
