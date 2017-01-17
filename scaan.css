@@ -35,9 +35,15 @@ footer {
 .navbar-brand {
 	height: 2rem;
 	padding: 0;
+	margin-right: 0;
 }
 
-a.nav-tem, a.nav-item:focus {
+.nav-link {
+	padding-left: 1.5rem;
+	padding-right: 0rem;
+}
+
+a.nav-item {
 	color: #0275d8;
 }
 
@@ -46,7 +52,7 @@ a.nav-item:hover {
 }
 
 img.headshot {
-	width: 100px;
+	width: 85px;
 }
 
 .bio p {
@@ -66,11 +72,7 @@ svg:hover path {
 #email {
 	height: 1rem;
 	margin-left: 0.5rem;
-}
-
-#email:hover {
-		text-decoration: underline;
-
+	padding-bottom: .15rem;
 }
 
 #email path {
@@ -79,4 +81,24 @@ svg:hover path {
 
 #email:hover path {
 	fill: #014c8c;
+}
+
+
+.card-header {
+	border-bottom: 0px;
+}
+
+.card {
+	border-radius: 0rem;
+}
+
+.topcard {
+	border-top-right-radius: .25rem;
+	border-top-left-radius: .25rem;
+}
+
+.bottomcard {
+	border-bottom-right-radius: .25rem;
+	border-bottom-left-radius: .25rem;
+	top: -1px;
 }
