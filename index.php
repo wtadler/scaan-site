@@ -274,7 +274,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- contact form JavaScript -->
-<!--     <script src="contactvalidator.js"></script>
-    <script src="contact.js"></script> -->
+    <script src="contactvalidator.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
