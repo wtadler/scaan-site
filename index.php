@@ -218,7 +218,7 @@
 
     <div class="col-md-6">
         
-        Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the form to the right if you are:
+        Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
         <ul>
         <li>a scientist who wants to get involved</li>
         <li>an organization that is interested in partnering with us on a project.</li>
