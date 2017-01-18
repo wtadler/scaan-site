@@ -85,6 +85,39 @@
     </div>
 
     <hr>
+    <h1 class="title">Contact us</h1>
+    <div class="row">
+        <div class="col-md-6">
+            Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
+            <ul>
+                <li>a scientist who wants to get involved</li>
+                <li>an organization that is interested in partnering with us on a project</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <form id="contact-form" method="post" action="contact.php" role="form">
+                <div class="controls">
+                    <div class="form-group">
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Your name is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="A valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="A message is required."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="messages"></div>
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <hr>
 
     <h1 class="title">Members</h1>
     <div id="members" class="row">
@@ -200,41 +233,8 @@
         </div>
     </div>
 
-    <hr>
-
-    <h1 class="title">Contact us</h1>
-    <div class="row">
-        <div class="col-md-6">
-            Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
-            <ul>
-                <li>a scientist who wants to get involved</li>
-                <li>an organization that is interested in partnering with us on a project.</li>
-            </ul>
-        </div>
-        <div class="col-md-6">
-            <form id="contact-form" method="post" action="contact.php" role="form">
-                <div class="controls">
-                    <div class="form-group">
-                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Your name is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="form-group">
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="A valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="A message is required."></textarea>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="messages"></div>
-                    <input type="submit" class="btn btn-success btn-send" value="Send message">
-                </div>
-            </form>
-        </div>
-    </div>
 
     <hr>
-
     <footer>
         <p>&copy; Scientist Action and Advocacy Network <?php echo date("Y"); ?></p>
     </footer>
