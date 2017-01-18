@@ -34,9 +34,11 @@
     <body>
     <div class="jumbotron">
         <div class="container">
-         <h1 class="title"><img class="title" src="img/logo_notbold_white.svg" alt="">
+        <div class="row">
+         <div class="col-lg-2"><img class="title" src="img/logo_notbold_white.svg" alt=""></div>
 
-         Scientist Action and Advocacy Network</h1>
+         <div class="col-lg"><h1 class="title">Scientist Action and Advocacy Network</h1></div>
+         </div>
          <p>We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change.</p>
      </div>  
  </div>
