@@ -35,7 +35,7 @@
     <div class="jumbotron">
         <div class="container">
         <div class="row">
-         <div class="col-lg-2"><img class="title" src="img/logo_notbold_white.svg" alt=""></div>
+         <div class="col-lg-2"><img class="logo" src="img/logo_notbold_white.svg" alt=""></div>
 
          <div class="col-lg"><h1 class="title">Scientist Action and Advocacy Network</h1></div>
          </div>
@@ -90,7 +90,7 @@
 
 <hr>
 
-
+	<h1 class="title">Members</h1>
     <div id="members" class="row">
         <div class="col-md">
             <div class="media member">
@@ -213,18 +213,20 @@
 
 
 	<hr>
+	<h1 class="title">Contact us</h1>
 <div class="row">
-    <div class="col-md-6 offset-md-3">
-        <h3>Contact us</h3>
-        Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> if you are:
+
+    <div class="col-md-6">
+        
+        Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the form to the right if you are:
         <ul>
-            <li>a scientist who wants to get involved</li>
-            <li>an organization that is interested in partnering with us on a project</li>
-            <li>a candidate that is interested in our support</li>
-        </ul>
-
-
-                <!-- <form id="contact-form" method="post" action="contact.php" role="form">
+        <li>a scientist who wants to get involved</li>
+        <li>an organization that is interested in partnering with us on a project.</li>
+</ul>
+        We'll get back to you shortly.
+</div>
+<div class="col-md-6">
+                <form id="contact-form" method="post" action="contact.php" role="form">
 
                     <div class="messages"></div>
 
@@ -247,7 +249,7 @@
 
                     </div>
 
-                </form> -->
+                </form>
 
             </div>
 
