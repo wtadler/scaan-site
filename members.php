@@ -32,7 +32,7 @@
                 <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/weiji_sq.jpg">
                 <div class="media-body bio">
                     <h4 class="mt-0">
-                        Dr. Wei Ji Ma, PhD
+                        Wei Ji Ma, PhD
                         <a href="mailto:weijima@nyu.edu" title="weijima@nyu.edu">
                             <img id="email" class="svg" src="img/email.svg">
                         </a>
@@ -61,7 +61,7 @@
                 <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/silvia2_sq.jpg">
                 <div class="media-body bio">
                     <h4 class="mt-0">
-                        Dr. Silvia Lopez-Guzman, MD
+                        Silvia Lopez-Guzman, MD
                         <a href="mailto:slg471@nyu.edu" title="slg471@nyu.edu">
                             <img id="email" class="svg" src="img/email.svg">
                         </a>
@@ -80,7 +80,7 @@
                     </a>
                     </h4>
 
-                    <p>Milenna is a PhD candidate in neuroscience at NYU. She is working on ScAAN’s Raise the Age project, and is also interested in supporting campaigns that work to restrict solitary confinement. Specifically, she is gathering research findings that demonstrate the trauma and long-term negative consequences of solitary confinement of juveniles and of juveniles being held in adult jails and prisons.</p>
+                    <p>Milenna is a predoctoral fellow in neuroscience at the NYU School of Medicine. She is working on ScAAN’s Raise the Age project, and is also interested in supporting campaigns that work to restrict solitary confinement. Specifically, she is gathering research findings that demonstrate the trauma and long-term negative consequences of solitary confinement of juveniles and of juveniles being held in adult jails and prisons.</p>
                 </div>
             </div>
 
