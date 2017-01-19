@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="scaan.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,7 +38,7 @@
                 <img class="logo" src="img/logo_notbold_white.svg" alt="">
             </div>
             <div class="col-lg">
-                <h1 class="title">Scientist Action and Advocacy Network</h1>
+                <h1 class="bigtitle">Scientist Action and Advocacy Network</h1>
             </div>
        </div>
        <p>We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change.</p>
@@ -48,14 +48,14 @@
 <div class="container">
     <div class="row" id="action">
         <div class="col-md">
-            <h1 class="title">Action</h1>
-            <h3><em>Pro bono</em> science</h3>
+            <h2>Action</h2>
+            <h4><em>Pro bono</em> science</h4>
              <p>Our members are doctoral students, PhD-holding research scientists, and professors who donate their skilled labor and expertise to our partner organizations. We can help formulate questions that can be answered with data, analyze pre-existing data, and figure out how to act on the results. We can also serve as guides to particular domains of scientific knowledge.</p>
         </div>
 
         <div class="col-md">
-            <h1 class="title">Advocacy</h1>
-            <h3>Lobbying and outreach</h3>
+            <h2>Advocacy</h2>
+            <h4>Lobbying and outreach</h4>
             <p>We organize actions to encourage our elected officials to support both evidence-based policies and scientific discovery. We also promote candidates with pro-science platforms.</p>
         </div>
     </div>
@@ -85,7 +85,7 @@
     </div>
 
     <hr>
-    <h1 class="title">Contact us</h1>
+    <h2>Contact us</h2>
     <div class="row">
         <div class="col-md-6">
             Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
@@ -119,7 +119,7 @@
 
     <hr>
 
-    <h1 class="title">Members</h1>
+    <h2>Members</h2>
     <div id="members" class="row">
         <div class="col-md">
             <div class="media member">
