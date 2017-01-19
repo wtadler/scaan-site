@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change.">
+    <meta property="og:description" content="We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change." />
+    <meta property="og:url" content="http://www.scaan.net/" />
+    <meta property="og:title" content="Scientist Action and Advocacy Network" />
+    <meta property="og:image" content="http://www.scaan.net/img/favicaan.ico" />
     <meta name="author" content="">
     <meta name="google-site-verification" content="zF32yFGiPnamVn1rhcrc311deNarsiAmquLuY1TY7mg" />
     <link rel="icon" href="img/favicaan.ico" type="image/x-icon">
