@@ -78,7 +78,7 @@
                             <a href="http://raisetheageny.com/"><img class="d-flex align-self-start mr-3 projectpartnerlogo" src="logos/raisetheage_square.png"></a>
                                 <div class="media-body">
                                     <p>Currently, New York State and North Carolina are the only two states that prosecute all 16- and 17-year-olds as adults, incarcerating them in adult jails and prisons, severely affecting their re-entry, rehabilitation, and social development. <a href="http://raisetheageny.com/">Raise the Age NY</a> is a campaign that supports a comprehensive approach to raising the age of criminal responsibility in New York State.</p>
-                                    <p>At ScAAN, we are compiling scientific evidence for Raise the Age NY on brain development and on the effectiveness of adolescent intervention, and are producing infographics appropriate for public communications. We recently delivered a verbal and written statement [<a href="docs/nycc_testimony.pdf">pdf</a>] on this topic to a joint committee meeting of the New York City Council.</p>
+                                    <p>At ScAAN, we are compiling scientific evidence for Raise the Age NY on brain development and on the effectiveness of adolescent intervention, and are producing infographics appropriate for public communications. We recently delivered a verbal and written statement [<a href="docs/nycc_testimony.pdf" download>pdf</a>] on this topic to a joint committee meeting of the New York City Council.</p>
                                 </div>
                             </div>
                         </div>
