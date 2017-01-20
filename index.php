@@ -9,10 +9,10 @@
     <meta property="og:description" content="We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change." />
     <meta property="og:url" content="http://www.scaan.net/" />
     <meta property="og:title" content="Scientist Action and Advocacy Network" />
-    <meta property="og:image" content="http://www.scaan.net/img/logo_blue.png" />
+    <meta property="og:image" content="http://www.scaan.net/logos/logo_blue.png" />
     <meta name="author" content="">
     <meta name="google-site-verification" content="zF32yFGiPnamVn1rhcrc311deNarsiAmquLuY1TY7mg" />
-    <link rel="icon" href="img/favicaan.ico" type="image/x-icon">
+    <link rel="icon" href="logos/favicaan.ico" type="image/x-icon">
 
     <title>Scientist Action and Advocacy Network | ScAAN</title>
 
@@ -31,7 +31,7 @@
       ga('send', 'pageview');
     </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="svg_to_inline.js"></script>  
+  <script src="scripts/svg_to_inline.js"></script>  
 </head>
 
 <body>
@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
-                <img class="logo" src="img/logo_white.svg" alt="">
+                <img class="logo" src="logos/logo_white.svg" alt="">
             </div>
             <div class="col-lg">
                 <h1 class="bigtitle">Scientist Action and Advocacy Network</h1>
@@ -75,10 +75,10 @@
                     <div id="rta" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                         <div class="card-block">
                             <div class="media">
-                            <a href="http://raisetheageny.com/"><img class="d-flex align-self-start mr-3 projectpartnerlogo" src="img/raisetheage_square.png"></a>
+                            <a href="http://raisetheageny.com/"><img class="d-flex align-self-start mr-3 projectpartnerlogo" src="logos/raisetheage_square.png"></a>
                                 <div class="media-body">
                                     <p>Currently, New York State and North Carolina are the only two states that prosecute all 16- and 17-year-olds as adults, incarcerating them in adult jails and prisons, severely affecting their re-entry, rehabilitation, and social development. <a href="http://raisetheageny.com/">Raise the Age NY</a> is a campaign that supports a comprehensive approach to raising the age of criminal responsibility in New York State.</p>
-                                    <p>At ScAAN, we are compiling scientific evidence for Raise the Age NY on the social stress and trauma of adult detention centers, and on the effectiveness of rehabilitation through means other than adult detention centers. We are also working with Raise the Age NY to produce infographics appropriate for public communications.</p>
+                                    <p>At ScAAN, we are compiling scientific evidence for Raise the Age NY on brain development and on the effectiveness of adolescent intervention, and are producing infographics appropriate for public communications. We recently delivered a verbal and written statement [<a href="docs/nycc_testimony.pdf">pdf</a>] on this topic to a joint committee meeting of the New York City Council.</p>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                     <h4 class="mt-0">
                         <a href="http://wtadler.com/" title="wtadler.com">William T. Adler</a>
                         <a href="mailto:will@wtadler.com" title="will@wtadler.com">
-                            <img id="email" class="svg" src="img/email.svg">
+                            <img id="email" class="svg" src="logos/email.svg">
                         </a>
                     </h4>
                     <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and founded ScAAN to bridge the gap between scientists and organizations working for the public good. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
@@ -144,7 +144,7 @@
                     <h4 class="mt-0">
                         Wei Ji Ma, PhD
                         <a href="mailto:weijima@nyu.edu" title="weijima@nyu.edu">
-                            <img id="email" class="svg" src="img/email.svg">
+                            <img id="email" class="svg" src="logos/email.svg">
                         </a>
                     </h4>
                     <p>Wei Ji is an associate professor of neural science and psychology at NYU, where <a href="http://www.cns.nyu.edu/malab/" title="Ma Lab">his research group</a> studies human decision-making, perception, and working memory. He is the first author of an upcoming textbook on mathematical models of behavior. Wei Ji has long-standing interests in education policy, non-profit management, and science outreach. He is the co-founder and chairman of the board of the <a href="http://ruralchina.org" title="Rural China Education Foundation">Rural China Education Foundation</a>, a 501(c)(3) non-profit organization which aims to improve the quality of primary education in rural China through student-centered teaching methods, community-based content, and sustainable teacher professional development.</p>
@@ -155,7 +155,7 @@
                 <div class="media-body bio">
                     <h4 class="mt-0">Jenn Laura Lee
                         <a href="mailto:jenn.laura.lee@gmail.com" title="jenn.laura.lee@gmail.com">
-                            <img id="email" class="svg" src="img/email.svg">
+                            <img id="email" class="svg" src="logos/email.svg">
                         </a>
                     </h4>
 
@@ -171,7 +171,7 @@
                     <h4 class="mt-0">
                         Silvia Lopez-Guzman, MD
                         <a href="mailto:slg471@nyu.edu" title="slg471@nyu.edu">
-                            <img id="email" class="svg" src="img/email.svg">
+                            <img id="email" class="svg" src="logos/email.svg">
                         </a>
 
                     </h4>
@@ -184,7 +184,7 @@
                 <div class="media-body bio">
                     <h4 class="mt-0">Milenna van Dijk, MSc
                         <a href="mailto:milenna.vandijk@gmail.com" title="milenna.vandijk@gmail.com">
-                            <img id="email" class="svg" src="img/email.svg">
+                            <img id="email" class="svg" src="logos/email.svg">
                         </a>
                     </h4>
 
@@ -197,7 +197,7 @@
                 <div class="media-body">
                     <h4 class="mt-0">Leana King
                         <a href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
-                            <img id="email" class="svg" src="img/email.svg">
+                            <img id="email" class="svg" src="logos/email.svg">
                         </a>
                     </h4>
 
@@ -255,7 +255,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
 
 <!-- contact form JavaScript -->
-<script src="contactvalidator.js"></script>
-<script src="contact.js"></script>
+<script src="scripts/contactvalidator.js"></script>
+<script src="scripts/contact.js"></script>
 </body>
 </html>
