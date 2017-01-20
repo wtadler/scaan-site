@@ -99,7 +99,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <form id="contact-form" method="post" action="contact.php" role="form">
+            <form id="contact-form" method="post" action="scripts/contact.php" role="form">
                 <div class="controls">
                     <div class="form-group">
                         <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Your name is required.">
