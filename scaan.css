@@ -78,24 +78,9 @@ img.headshot {
 	margin-bottom: .5rem;
 }
 
-svg:hover path {
-	fill: #0275d8;
+.fa-envelope, .fa-envelope-square, .fa-envelope-o {
+	margin-left: 1.2rem;
 }
-
-#email {
-	height: 1rem;
-	margin-left: 0.5rem;
-	padding-bottom: .15rem;
-}
-
-#email path {
-	fill: #0275d8;
-}
-
-#email:hover path {
-	fill: #014c8c;
-}
-
 
 .card-header {
 	border-bottom: 0px;

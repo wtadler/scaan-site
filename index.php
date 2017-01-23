@@ -31,7 +31,8 @@
       ga('send', 'pageview');
     </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="scripts/svg_to_inline.js"></script>  
+  <script src="scripts/svg_to_inline.js"></script>
+  <script src="https://use.fontawesome.com/7b8eff5c01.js"></script>
 </head>
 
 <body>
@@ -132,7 +133,7 @@
                     <h4 class="mt-0">
                         <a href="http://wtadler.com/" title="wtadler.com">William T. Adler</a>
                         <a href="mailto:will@wtadler.com" title="will@wtadler.com">
-                            <img id="email" class="svg" src="logos/email.svg">
+                            <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
                     <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and founded ScAAN to bridge the gap between scientists and organizations working for the public good. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
@@ -144,7 +145,7 @@
                     <h4 class="mt-0">
                         Wei Ji Ma, PhD
                         <a href="mailto:weijima@nyu.edu" title="weijima@nyu.edu">
-                            <img id="email" class="svg" src="logos/email.svg">
+                            <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
                     <p>Wei Ji is an associate professor of neural science and psychology at NYU, where <a href="http://www.cns.nyu.edu/malab/" title="Ma Lab">his research group</a> studies human decision-making, perception, and working memory. He is the first author of an upcoming textbook on mathematical models of behavior. Wei Ji has long-standing interests in education policy, non-profit management, and science outreach. He is the co-founder and chairman of the board of the <a href="http://ruralchina.org" title="Rural China Education Foundation">Rural China Education Foundation</a>, a 501(c)(3) non-profit organization which aims to improve the quality of primary education in rural China through student-centered teaching methods, community-based content, and sustainable teacher professional development.</p>
@@ -155,7 +156,7 @@
                 <div class="media-body bio">
                     <h4 class="mt-0">Jenn Laura Lee
                         <a href="mailto:jenn.laura.lee@gmail.com" title="jenn.laura.lee@gmail.com">
-                            <img id="email" class="svg" src="logos/email.svg">
+                            <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
 
@@ -171,7 +172,7 @@
                     <h4 class="mt-0">
                         Silvia Lopez-Guzman, MD
                         <a href="mailto:slg471@nyu.edu" title="slg471@nyu.edu">
-                            <img id="email" class="svg" src="logos/email.svg">
+                            <i class="fa fa-envelope"></i>
                         </a>
 
                     </h4>
@@ -184,7 +185,7 @@
                 <div class="media-body bio">
                     <h4 class="mt-0">Milenna van Dijk, MSc
                         <a href="mailto:milenna.vandijk@gmail.com" title="milenna.vandijk@gmail.com">
-                            <img id="email" class="svg" src="logos/email.svg">
+                            <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
 
@@ -197,7 +198,7 @@
                 <div class="media-body">
                     <h4 class="mt-0">Leana King
                         <a href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
-                            <img id="email" class="svg" src="logos/email.svg">
+                            <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
 
