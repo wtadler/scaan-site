@@ -31,7 +31,6 @@
       ga('send', 'pageview');
     </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="scripts/svg_to_inline.js"></script>
   <script src="https://use.fontawesome.com/7b8eff5c01.js"></script>
 </head>
 
