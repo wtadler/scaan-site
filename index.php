@@ -162,7 +162,23 @@
                     <p>Jenn is a predoctoral fellow in the Center for Neural Science at NYU. She is spearheading ScAAN's project with Raise the Age NY, providing scientific support for legislation that would raise the age at which juveniles are tried as adults in New York State. She is interested in working with public advocacy groups in general.</p>
                 </div>
             </div>
+
+            <div class="media member">
+                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/leana_sq.jpg">
+                <div class="media-body">
+                    <h4 class="mt-0">Leana King
+                        <a href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </h4>
+
+                    <p>Leana is a neural science student and researcher at NYU, and is interested in how good design can produce effective advocacy.</p>
+                </div>
+            </div>
+
         </div>
+
+
             
         <div class="col-md">
             <div class="media member">
@@ -193,17 +209,18 @@
             </div>
 
             <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/leana_sq.jpg">
+                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
                 <div class="media-body">
-                    <h4 class="mt-0">Leana King
-                        <a href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
+                    <h4 class="mt-0">EG Gaffin-Cahn, MSc
+                        <a href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
 
-                    <p>Leana is a neural science student and researcher at NYU, and is interested in how good design can produce effective advocacy.</p>
+                    <p>EG is a predoctoral candidate in psychology at NYU. He is a promoter of open access and uncensored government-funded research. He is also interested in building the public's trust in science as a means to improving the long-term well-being of our society.</p>
                 </div>
             </div>
+
 
 
             <div class="media member">
