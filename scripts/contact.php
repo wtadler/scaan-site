@@ -3,7 +3,7 @@
 // configure
 $from = 'info@scaan.net'; 
 $sendTo = 'will@wtadler.com';
-$subject = 'New ScAAN message';
+$subject = 'ScAAN: Scientist Action and Advocacy Network';
 $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Thanks for contacting us. You\'ll hear back from us soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
