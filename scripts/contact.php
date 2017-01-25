@@ -13,7 +13,6 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 try
 {
     $emailText = "You have a new message from the ScAAN contact form.\n\n";
-
     foreach ($_POST as $key => $value) {
 
         if (isset($fields[$key])) {
@@ -21,7 +20,7 @@ try
         }
     }
 
-    mail($sendTo, $subject, $emailText, "From: " . $from);
+    mail($sendTo, $subject, $emailText, "From: " . $_POST[email]);
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
