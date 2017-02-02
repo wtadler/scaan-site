@@ -78,8 +78,20 @@ img.headshot {
 	margin-bottom: .5rem;
 }
 
-.fa-envelope, .fa-envelope-square, .fa-envelope-o {
+.email {
 	margin-left: 1.2rem;
+}
+
+.fa-envelope {
+	font-size: 1.2rem !important;
+	position: relative;
+	bottom: 2px;
+	padding-bottom: 1px;
+}
+
+.fa-envelope:hover {
+	border-bottom: 2px solid;
+	margin-bottom: -2px;
 }
 
 .card-header {

@@ -131,7 +131,7 @@
                 <div class="media-body bio">
                     <h4 class="mt-0">
                         <a href="http://wtadler.com/" title="wtadler.com">William T. Adler</a>
-                        <a href="mailto:will@wtadler.com" title="will@wtadler.com">
+                        <a class="email" href="mailto:will@wtadler.com" title="will@wtadler.com">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
@@ -143,7 +143,7 @@
                 <div class="media-body bio">
                     <h4 class="mt-0">
                         Wei Ji Ma, PhD
-                        <a href="mailto:weijima@nyu.edu" title="weijima@nyu.edu">
+                        <a class="email" href="mailto:weijima@nyu.edu" title="weijima@nyu.edu">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
@@ -154,7 +154,7 @@
                 <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/jenn_sq.jpg">
                 <div class="media-body bio">
                     <h4 class="mt-0">Jenn Laura Lee
-                        <a href="mailto:jenn.laura.lee@gmail.com" title="jenn.laura.lee@gmail.com">
+                        <a class="email" href="mailto:jenn.laura.lee@gmail.com" title="jenn.laura.lee@gmail.com">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
@@ -167,7 +167,7 @@
                 <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/leana_sq.jpg">
                 <div class="media-body">
                     <h4 class="mt-0">Leana King
-                        <a href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
+                        <a class="email" href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
@@ -186,7 +186,7 @@
                 <div class="media-body bio">
                     <h4 class="mt-0">
                         Silvia Lopez-Guzman, MD
-                        <a href="mailto:slg471@nyu.edu" title="slg471@nyu.edu">
+                        <a class="email" href="mailto:slg471@nyu.edu" title="slg471@nyu.edu">
                             <i class="fa fa-envelope"></i>
                         </a>
 
@@ -199,7 +199,7 @@
                 <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/milenna_sq.jpg">
                 <div class="media-body bio">
                     <h4 class="mt-0">Milenna van Dijk, MSc
-                        <a href="mailto:milenna.vandijk@gmail.com" title="milenna.vandijk@gmail.com">
+                        <a class="email" href="mailto:milenna.vandijk@gmail.com" title="milenna.vandijk@gmail.com">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
@@ -212,7 +212,7 @@
                 <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
                 <div class="media-body">
                     <h4 class="mt-0">EG Gaffin-Cahn, MSc
-                        <a href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
+                        <a class="email" href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </h4>
