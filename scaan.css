@@ -104,6 +104,7 @@ img.headshot {
 
 .card-header {
 	border-bottom: 0px;
+	background-color: rgb(241, 241, 241);
 }
 
 .card {
