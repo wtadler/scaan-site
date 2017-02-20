@@ -102,23 +102,28 @@ img.headshot {
 	margin-bottom: -2px;
 }
 
+ /* no radius on all cards... */
+.card {
+	border-radius: 0rem;
+}
+
+ /* ...except the top card */
+.topcard {
+	border-radius: .25rem .25rem 0 0;
+}
+
+/* all card-headers have default border-radius on all four corners...
+...except now we make it only the top one */
+.not-top-card-header {
+	border-radius: 0 !important;
+}
+
 .card-header {
 	border-bottom: 0px;
 	background-color: rgb(241, 241, 241);
 }
 
-.card {
-	border-radius: 0rem;
-}
-
-.topcard {
-	border-top-right-radius: .25rem;
-	border-top-left-radius: .25rem;
-}
-
 .bottomcard {
-	border-bottom-right-radius: .25rem;
-	border-bottom-left-radius: .25rem;
 	top: -1px;
 }
 

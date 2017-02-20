@@ -69,7 +69,7 @@
         	<h2>Current projects</h2>
             <div id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="card topcard">
-                    <div class="card-header" role="tab" id="headingOne">
+                    <div class="card-header" role="tab">
                         <h4 class="mb-0">
                         	<a data-toggle="collapse" href="#rta" aria-controls="rta" aria-expanded="false">
                         		Raise the Age NY <i class="fa fa-angle-down"></i>
@@ -77,7 +77,7 @@
                 		</h4>
                     </div>
 
-                    <div id="rta" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div id="rta" class="collapse" role="tabpanel">
                         <div class="card-block">
                             <a href="http://raisetheageny.com/"><img class="projectpartnerlogo" src="logos/raisetheage_square.png"></a>
                         
@@ -87,14 +87,14 @@
                     </div>
 				</div>
 				<div class="card bottomcard">
-                    <div class="card-header" role="tab" id="headingOne">
+                    <div class="card-header not-top-card-header" role="tab">
                         <h4 class="mb-0">
                         	<a data-toggle="collapse" href="#met" aria-controls="met" aria-expanded="false">
 	                        	Metropolitan Council on Housing <i class="fa fa-angle-down"></i>
 							</a>
                     	</h4>
                     </div>
-                    <div id="met" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div id="met" class="collapse" role="tabpanel">
                         <div class="card-block">
                             <a href="http://metcouncilonhousing.org/"><img class="projectpartnerlogo" src="logos/met.png"></a>
                         
