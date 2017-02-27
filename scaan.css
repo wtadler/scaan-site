@@ -34,6 +34,19 @@ img.logo {
 footer {
 	font-size:.9rem;
 }
+
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-popover .fc-header,
+.fc-unthemed .fc-list-heading td {
+	background: rgb(241,241,241) !important;
+}
+
+#addGCal {
+	text-align: right;
+	position: relative;
+	top: 1px;
+}
+
 /*
 .navbar {
 	padding-left: 0;
@@ -105,12 +118,13 @@ h4 .fa-angle-down {
  /* no radius on all cards... */
 .card {
 	border-radius: 0rem;
+	border-color: #ddd;
 }
 
  /* ...except the top card */
-.topcard {
+/*.topcard {
 	border-radius: .25rem .25rem 0 0;
-}
+}*/
 
 /* all card-headers have default border-radius on all four corners...
 ...except now we make it only the top one */

@@ -18,9 +18,43 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
     <!-- Custom styles for this template -->
     <link href="scaan.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+    <link rel='stylesheet' href='fullcalendar/fullcalendar.min.css' />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js'></script>
+	<script src='fullcalendar/fullcalendar.min.js'></script>
+    <script type='text/javascript' src='fullcalendar/gcal.min.js'></script>
+
+	<script type='text/javascript'>
+		$(document).ready(function() {
+		    $('#calendar').fullCalendar({
+                defaultView: 'list',
+                // defaultDate: moment(),
+
+                header: false,
+
+                height: 297,
+
+                views: {
+                	list: {
+                		duration: { days: 90 },
+                		listDayAltFormat: 'dddd',
+                	}
+                },
+
+		        googleCalendarApiKey: 'AIzaSyCZvO74KdqAFqm1Zwzzo9l3K8CpO0rVw3Q',
+		        events: {
+		            googleCalendarId: 'nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com'
+		        }
+		    });
+		});
+	</script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,9 +63,8 @@
 
       ga('create', 'UA-89937713-1', 'auto');
       ga('send', 'pageview');
-    </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://use.fontawesome.com/7b8eff5c01.js"></script>
+    </script>  
+	<script src="https://use.fontawesome.com/7b8eff5c01.js"></script>
 </head>
 
 <body>
@@ -66,7 +99,7 @@
 
     <div class="row">
         <div class="col-md-10 offset-md-1">
-        	<h2>Current projects</h2>
+        	<h2>Current Projects</h2>
             <div id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="card topcard">
                     <div class="card-header" role="tab">
@@ -115,16 +148,16 @@
     </div>
 
     <hr>
-    <h2>Contact us</h2>
+    
     <div class="row">
         <div class="col-md-6">
+	        <h2>Contact Us</h2>
             Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
             <ul>
                 <li>a scientist who wants to get involved</li>
                 <li>an organization that is interested in partnering with us on a project</li>
             </ul>
-        </div>
-        <div class="col-md-6">
+            <p>
             <form id="contact-form" method="post" action="scripts/contact.php" role="form">
                 <div class="controls">
                     <div class="form-group">
@@ -143,6 +176,28 @@
                     <input type="submit" class="btn btn-success btn-send" value="Send message">
                 </div>
             </form>
+            </p>
+        </div>
+        <div class="col-md-6">
+        <h2>Upcoming Events</h2>
+            <div id='calendar'></div>
+			
+	            <!-- add google calendar hack -->
+				<div id="addGCal">
+					<a href="https://calendar.google.com/calendar/render?cid=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com" target="_blank">
+						<img src="logos/gcal.gif">
+					</a>
+				</div>
+
+				<!-- go to google calendar
+				<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York">
+		            <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
+	            </a>-->            
+			
+
+	        <!-- embed google calendar (ugly)
+	        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=349&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nyu.edu_ifm76t83fckh8jviji92irkjk8%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="349px" frameborder="0" scrolling="yes"></iframe> -->
+
         </div>
     </div>
 
