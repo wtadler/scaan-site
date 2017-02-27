@@ -42,6 +42,10 @@ footer {
 	line-height: 1;
 }
 
+.fc-event-dot {
+	display: none !important;
+}
+
 #addGCal {
 	text-align: right;
 	position: relative;
