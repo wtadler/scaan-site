@@ -39,6 +39,7 @@ footer {
 .fc-unthemed .fc-popover .fc-header,
 .fc-unthemed .fc-list-heading td {
 	background: rgb(241,241,241) !important;
+	line-height: 1;
 }
 
 #addGCal {
