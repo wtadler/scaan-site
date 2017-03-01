@@ -194,7 +194,7 @@
 				<div id="addGCal">
 
 					 <!-- go to google calendar -->
-					<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York">
+					<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York" target="_blank">
 			            <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
 		            </a>            
 
