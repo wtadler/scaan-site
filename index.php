@@ -177,7 +177,7 @@
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group">
-                        <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="A message is required."></textarea>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="5" required="required" data-error="A message is required."></textarea>
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="messages"></div>
@@ -188,6 +188,7 @@
         </div>
         <div class="col-md-6">
         <h2>Upcoming Events</h2>
+        <div class="calendarWarning">Please contact us before coming to your first general meeting to ensure access to the building.</div>
             <div id='calendar'></div>
 			
 	            

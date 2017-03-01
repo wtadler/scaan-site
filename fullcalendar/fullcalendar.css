@@ -1323,7 +1323,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .fc-list-table td {
-	border-width: 1px 0 0;
+	border-width: 0px;
 	padding: 8px 14px;
 }
 
