@@ -22,13 +22,13 @@
     <!-- Custom styles for this template -->
     <link href="scaan.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
-    <link rel='stylesheet' href='fullcalendar/fullcalendar.min.css' />
+    <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     
     <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js'></script>
 	<script src='fullcalendar/fullcalendar.min.js'></script>
-    <script type='text/javascript' src='fullcalendar/gcal.min.js'></script>
+    <script type='text/javascript' src='fullcalendar/gcal.js'></script>
 
 	<script type='text/javascript'>
 		$(document).ready(function() {
@@ -50,7 +50,15 @@
 		        googleCalendarApiKey: 'AIzaSyCZvO74KdqAFqm1Zwzzo9l3K8CpO0rVw3Q',
 		        events: {
 		            googleCalendarId: 'nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com'
-		        }
+		        },
+
+		        eventRender: function(event, element, view) {
+	        	if (event.location) {
+			        element.find(".fc-list-item-title")
+			            .append("<div class='eventLoc'>" + event.location + "</div>");
+		    	}
+			}
+
 		    });
 		});
 	</script>
@@ -182,17 +190,21 @@
         <h2>Upcoming Events</h2>
             <div id='calendar'></div>
 			
-	            <!-- add google calendar hack -->
+	            
 				<div id="addGCal">
-					<a href="https://calendar.google.com/calendar/render?cid=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com" target="_blank">
+
+					 <!-- go to google calendar -->
+					<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York">
+			            <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
+		            </a>            
+
+
+					<!-- add google calendar hack -->
+					<!-- <a href="https://calendar.google.com/calendar/render?cid=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com" target="_blank">
 						<img src="logos/gcal.gif">
-					</a>
+					</a> -->
 				</div>
 
-				<!-- go to google calendar
-				<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York">
-		            <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
-	            </a>-->            
 			
 
 	        <!-- embed google calendar (ugly)

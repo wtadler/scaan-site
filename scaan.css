@@ -35,48 +35,11 @@ footer {
 	font-size:.9rem;
 }
 
-.fc-unthemed .fc-divider,
-.fc-unthemed .fc-popover .fc-header,
-.fc-unthemed .fc-list-heading td {
-	background: rgb(241,241,241) !important;
-	line-height: 1;
-}
-
-.fc-event-dot {
-	display: none !important;
-}
-
 #addGCal {
 	text-align: right;
 	position: relative;
 	top: 1px;
 }
-
-/*
-.navbar {
-	padding-left: 0;
-	font-size: 1.3rem;
-}
-
-.navbar-brand {
-	height: 2rem;
-	padding: 0;
-	margin-right: 0;
-}
-
-.nav-link {
-	padding-left: 1.5rem;
-	padding-right: 0rem;
-	font-weight: 700;
-}
-
-a.nav-item {
-	color: #81acff;
-}
-
-a.nav-item:hover {
-	color: #98d0ff;
-}*/
 
 .projectpartnerlogo {
 	width: 100px;
@@ -170,4 +133,9 @@ input, textarea, select, button {
 
 .videoWrapperWrapper {
 	max-width: 600px;
+}
+
+.eventLoc {
+	color: #999;
+	font-size: 0.9rem;
 }
