@@ -38,7 +38,7 @@
 
                 header: false,
 
-                height: 297,
+                height: 302,
 
                 views: {
                 	list: {
@@ -47,7 +47,7 @@
                 	}
                 },
 
-		        googleCalendarApiKey: 'AIzaSyCZvO74KdqAFqm1Zwzzo9l3K8CpO0rVw3Q',
+		        googleCalendarApiKey: 'AIzaSyB-VH_jUYf0thQ9HiZQdndaJVeWtDdh1L8',
 		        events: {
 		            googleCalendarId: 'nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com'
 		        },
@@ -188,7 +188,7 @@
         </div>
         <div class="col-md-6">
         <h2>Upcoming Events</h2>
-        <div class="calendarWarning">Please contact us before coming to your first general meeting to ensure access to the building.</div>
+        <div class="calendarWarning">To ensure access to the building, please contact us before coming to your first general meeting or working group.</div>
             <div id='calendar'></div>
 			
 	            
