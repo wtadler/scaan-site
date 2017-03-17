@@ -189,165 +189,174 @@
         <div class="col-md-6">
         <h2>Upcoming Events</h2>
         <div class="calendarWarning">To ensure access to the building, please contact us before coming to your first general meeting or working group.</div>
-            <div id='calendar'></div>
-			
-	            
-				<div id="addGCal">
+        <div id='calendar'></div>
+		<div id="addGCal">
+			 <!-- go to google calendar -->
+			<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York" target="_blank">
+	            <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
+            </a>            
 
-					 <!-- go to google calendar -->
-					<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York" target="_blank">
-			            <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
-		            </a>            
-
-
-					<!-- add google calendar hack -->
-					<!-- <a href="https://calendar.google.com/calendar/render?cid=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com" target="_blank">
-						<img src="logos/gcal.gif">
-					</a> -->
-				</div>
-
-			
-
-	        <!-- embed google calendar (ugly)
-	        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=349&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nyu.edu_ifm76t83fckh8jviji92irkjk8%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="349px" frameborder="0" scrolling="yes"></iframe> -->
+			<!-- add google calendar hack -->
+			<!-- <a href="https://calendar.google.com/calendar/render?cid=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com" target="_blank">
+				<img src="logos/gcal.gif">
+			</a> -->
+		</div>
+        <!-- embed google calendar (ugly)
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=349&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nyu.edu_ifm76t83fckh8jviji92irkjk8%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="349px" frameborder="0" scrolling="yes"></iframe> -->
 
         </div>
     </div>
-
 
     <hr>
+    
+    <div class="row">
+        <div class="col-md-9">
+            <h2 id="members">Members</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/will2_sq.jpg">
+                        <div class="media-body bio">
+                            <h4 class="mt-0">
+                                <a href="http://wtadler.com/" title="wtadler.com">William T. Adler</a>
+                                <a class="email" href="mailto:will@wtadler.com" title="will@wtadler.com">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </h4>
+                            <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and founded ScAAN to bridge the gap between scientists and organizations working for the public good. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
+                        </div>
+                    </div>
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/weiji_sq.jpg">
+                        <div class="media-body bio">
+                            <h4 class="mt-0">
+                                Wei Ji Ma, PhD
+                                <a class="email" href="mailto:weijima@nyu.edu" title="weijima@nyu.edu">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </h4>
+                            <p>Wei Ji is an associate professor of neural science and psychology at NYU, where <a href="http://www.cns.nyu.edu/malab/" title="Ma Lab">his research group</a> studies human decision-making, perception, and working memory. He is the first author of an upcoming textbook on mathematical models of behavior. Wei Ji has long-standing interests in education policy, non-profit management, and science outreach. He is the co-founder and chairman of the board of the <a href="http://ruralchina.org" title="Rural China Education Foundation">Rural China Education Foundation</a>, a 501(c)(3) non-profit organization which aims to improve the quality of primary education in rural China through student-centered teaching methods, community-based content, and sustainable teacher professional development.</p>
+                        </div>
+                    </div>
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/jenn_sq.jpg">
+                        <div class="media-body bio">
+                            <h4 class="mt-0">Jenn Laura Lee
+                                <a class="email" href="mailto:jenn.laura.lee@gmail.com" title="jenn.laura.lee@gmail.com">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </h4>
 
-    <h2>Members</h2>
-    <div id="members" class="row">
-        <div class="col-md">
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/will2_sq.jpg">
-                <div class="media-body bio">
-                    <h4 class="mt-0">
-                        <a href="http://wtadler.com/" title="wtadler.com">William T. Adler</a>
-                        <a class="email" href="mailto:will@wtadler.com" title="will@wtadler.com">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                    </h4>
-                    <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and founded ScAAN to bridge the gap between scientists and organizations working for the public good. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
+                            <p>Jenn is a predoctoral fellow in the Center for Neural Science at NYU. She is spearheading ScAAN's project with Raise the Age NY, providing scientific support for legislation that would raise the age at which juveniles are tried as adults in New York State. She is interested in working with public advocacy groups in general.</p>
+                        </div>
+                    </div>
+
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/leana_sq.jpg">
+                        <div class="media-body">
+                            <h4 class="mt-0">Leana King
+                                <a class="email" href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </h4>
+
+                            <p>Leana is a neural science student and researcher at NYU, and is interested in how good design can produce effective advocacy.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                    
+                <div class="col-md-6">
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/silvia2_sq.jpg">
+                        <div class="media-body bio">
+                            <h4 class="mt-0">
+                                Silvia Lopez-Guzman, MD
+                                <a class="email" href="mailto:slg471@nyu.edu" title="slg471@nyu.edu">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+
+                            </h4>
+                            <p>Silvia is a predoctoral fellow at the Center for Neural Science at NYU, where she studies the connection between drug addiction and decision-making. She is interested in supporting advocacy groups fighting against juvenile incarceration, racial profiling, and the criminalization of drug addiction. She is working on an initiative to connect public defenders with scientific expert witnesses.</p>
+                        </div>
+                    </div>
+
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/milenna_sq.jpg">
+                        <div class="media-body bio">
+                            <h4 class="mt-0">Milenna van Dijk, MSc
+                                <a class="email" href="mailto:milenna.vandijk@gmail.com" title="milenna.vandijk@gmail.com">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </h4>
+
+                            <p>Milenna is a predoctoral fellow in neuroscience at the NYU School of Medicine. She is working on ScAAN’s Raise the Age project, and is also interested in supporting campaigns that work to restrict solitary confinement. Specifically, she is gathering research findings that demonstrate the trauma and long-term negative consequences of solitary confinement of juveniles and of juveniles being held in adult jails and prisons.</p>
+                        </div>
+                    </div>
+
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
+                        <div class="media-body">
+                            <h4 class="mt-0">EG Gaffin-Cahn, MSc
+                                <a class="email" href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </h4>
+
+                            <p>EG is a predoctoral candidate in psychology at NYU. He is a promoter of open access and uncensored government-funded research. He is also interested in building the public's trust in science as a means to improving the long-term well-being of our society.</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
+                        <div class="media-body">
+                            <h4 class="mt-0">David Halpern</h4>
+                        </div>
+                    </div>
+
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
+                        <div class="media-body">
+                            <h4 class="mt-0">William F. Broderick</h4>
+                        </div>
+                    </div>
+
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
+                        <div class="media-body">
+                            <h4 class="mt-0">Owen Marschall</h4>
+                        </div>
+                    </div>
+
+                    <div class="media member">
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
+                        <div class="media-body">
+                            <h4 class="mt-0">Andra Mihali</h4>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/weiji_sq.jpg">
-                <div class="media-body bio">
-                    <h4 class="mt-0">
-                        Wei Ji Ma, PhD
-                        <a class="email" href="mailto:weijima@nyu.edu" title="weijima@nyu.edu">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                    </h4>
-                    <p>Wei Ji is an associate professor of neural science and psychology at NYU, where <a href="http://www.cns.nyu.edu/malab/" title="Ma Lab">his research group</a> studies human decision-making, perception, and working memory. He is the first author of an upcoming textbook on mathematical models of behavior. Wei Ji has long-standing interests in education policy, non-profit management, and science outreach. He is the co-founder and chairman of the board of the <a href="http://ruralchina.org" title="Rural China Education Foundation">Rural China Education Foundation</a>, a 501(c)(3) non-profit organization which aims to improve the quality of primary education in rural China through student-centered teaching methods, community-based content, and sustainable teacher professional development.</p>
-                </div>
-            </div>
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/jenn_sq.jpg">
-                <div class="media-body bio">
-                    <h4 class="mt-0">Jenn Laura Lee
-                        <a class="email" href="mailto:jenn.laura.lee@gmail.com" title="jenn.laura.lee@gmail.com">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                    </h4>
-
-                    <p>Jenn is a predoctoral fellow in the Center for Neural Science at NYU. She is spearheading ScAAN's project with Raise the Age NY, providing scientific support for legislation that would raise the age at which juveniles are tried as adults in New York State. She is interested in working with public advocacy groups in general.</p>
-                </div>
-            </div>
-
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/leana_sq.jpg">
-                <div class="media-body">
-                    <h4 class="mt-0">Leana King
-                        <a class="email" href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                    </h4>
-
-                    <p>Leana is a neural science student and researcher at NYU, and is interested in how good design can produce effective advocacy.</p>
-                </div>
-            </div>
-
         </div>
-
-
-            
-        <div class="col-md">
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/silvia2_sq.jpg">
-                <div class="media-body bio">
-                    <h4 class="mt-0">
-                        Silvia Lopez-Guzman, MD
-                        <a class="email" href="mailto:slg471@nyu.edu" title="slg471@nyu.edu">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-
-                    </h4>
-                    <p>Silvia is a predoctoral fellow at the Center for Neural Science at NYU, where she studies the connection between drug addiction and decision-making. She is interested in supporting advocacy groups fighting against juvenile incarceration, racial profiling, and the criminalization of drug addiction. She is working on an initiative to connect public defenders with scientific expert witnesses.</p>
-                </div>
-            </div>
-
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/milenna_sq.jpg">
-                <div class="media-body bio">
-                    <h4 class="mt-0">Milenna van Dijk, MSc
-                        <a class="email" href="mailto:milenna.vandijk@gmail.com" title="milenna.vandijk@gmail.com">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                    </h4>
-
-                    <p>Milenna is a predoctoral fellow in neuroscience at the NYU School of Medicine. She is working on ScAAN’s Raise the Age project, and is also interested in supporting campaigns that work to restrict solitary confinement. Specifically, she is gathering research findings that demonstrate the trauma and long-term negative consequences of solitary confinement of juveniles and of juveniles being held in adult jails and prisons.</p>
-                </div>
-            </div>
-
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
-                <div class="media-body">
-                    <h4 class="mt-0">EG Gaffin-Cahn, MSc
-                        <a class="email" href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                    </h4>
-
-                    <p>EG is a predoctoral candidate in psychology at NYU. He is a promoter of open access and uncensored government-funded research. He is also interested in building the public's trust in science as a means to improving the long-term well-being of our society.</p>
-                </div>
-            </div>
-
-
-
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
-                <div class="media-body">
-                    <h4 class="mt-0">David Halpern</h4>
-                </div>
-            </div>
-
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
-                <div class="media-body">
-                    <h4 class="mt-0">William F. Broderick</h4>
-                </div>
-            </div>
-
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
-                <div class="media-body">
-                    <h4 class="mt-0">Owen Marschall</h4>
-                </div>
-            </div>
-
-            <div class="media member">
-                <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
-                <div class="media-body">
-                    <h4 class="mt-0">Andra Mihali</h4>
-                </div>
-            </div>
-
+        
+        <div class="col-md-3">
+            <h2 style="display:inline">Tweets</h2>
+            <span class="follow-button">
+                <a class="twitter-follow-button" href="https://twitter.com/ScientistAction" data-show-count="false">
+                    Follow @ScientistAction
+                </a>
+            </span>
+            <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
+                data-chrome="nofooter noheader noborders">
+                Tweets by ScientistAction
+            </a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
-
 
     <hr>
     <footer>

@@ -150,3 +150,9 @@ input, textarea, select, button {
 .fc-list-item {
 	border-bottom: 1px solid #ddd;
 }
+
+.follow-button {
+	float: right;
+	position: relative;
+	top: 0.65em;
+}
