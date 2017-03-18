@@ -86,7 +86,7 @@
                 <h1 class="bigtitle">Scientist Action and Advocacy Network</h1>
             </div>
        </div>
-       <p>We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change.</p>
+       <p>We are a New York-based group of scientists that partners with organizations that are creating positive social change.</p>
     </div>  
 </div>
 
