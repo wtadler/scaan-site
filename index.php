@@ -351,7 +351,8 @@
                 </a>
             </span>
             <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
-                data-chrome="nofooter noheader noborders">
+                data-chrome="nofooter noheader noborders"
+                data-height="1054">
                 Tweets by ScientistAction
             </a>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
