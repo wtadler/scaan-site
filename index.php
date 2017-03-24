@@ -105,50 +105,37 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-10 offset-md-1">
-        	<h2>Current Projects</h2>
-            <div id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="card topcard">
-                    <div class="card-header" role="tab">
-                        <h4 class="mb-0">
-                        	<a data-toggle="collapse" href="#rta" aria-controls="rta" aria-expanded="false">
-                        		Raise the Age NY <i class="fa fa-angle-down"></i>
-                    		</a>
-                		</h4>
-                    </div>
 
-                    <div id="rta" class="collapse" role="tabpanel">
-                        <div class="card-block">
-                            <a href="http://raisetheageny.com/"><img class="projectpartnerlogo" src="logos/raisetheage_square.png"></a>
-                        
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h2>Current Projects</h2>
+
+            <div class="row">
+                <div class="col">
+                    <div class="project-block top-block">
+                    <a href="http://raisetheageny.com/"><img class="projectpartnerlogo" src="logos/raisetheage_square.png"></a>
                             <p>Currently, New York State and North Carolina are the only two states that prosecute all 16- and 17-year-olds as adults, incarcerating them in adult jails and prisons, severely affecting their re-entry, rehabilitation, and social development. <a href="http://raisetheageny.com/">Raise the Age NY</a> is a campaign that supports a comprehensive approach to raising the age of criminal responsibility in New York State.</p>
-                            <p>At ScAAN, we are compiling scientific evidence for Raise the Age NY on brain development and on the effectiveness of adolescent intervention, and are producing infographics appropriate for public communications. We recently delivered a <a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a><!--  [<a data-toggle="collapse" href="#rtaVideo" aria-expanded="false" aria-controls="rtaVideo">video <i class="fa fa-angle-down"></i></a>, <a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>pdf <i class="fa fa-download"></i></a>] --> on this topic to a joint committee meeting of the New York City Council:</p>
-                            <!-- <div class="collapse show" id="rtaVideo"> -->
-	                            <div class="videoWrapperWrapper">
-		                            <div class="videoWrapper">
-			                            <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?modestbranding=1" frameborder="0" allowfullscreen></iframe>
-		                            </div>
-	                            </div>
-                            <!-- </div> -->
-                        </div>
+
+                            <p>We compiled the most current findings on adolescent brain development into a report for Raise the Age NY. The research shows that the adolescent brain is different from the adult brain; it is still under development, and very sensitive to life experiences. This means that the trauma induced by incarceration can have long-lasting effects. However, it also means that the adolescent brain should be particularly amenable to rehabilitation in programs that recognize the difference between adolescents and adults. The full report can be downloaded <a href="docs/ScAAN_RTA_report.pdf" download>here <i class="fa fa-file-pdf-o"></i></a>.</p>
+
+                            <p>We also delivered a statement [<a data-toggle="collapse" href="#rtaVideo" aria-expanded="false" aria-controls="rtaVideo">video <i class="fa fa-angle-down"></i></a>, <a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>pdf <i class="fa fa-file-pdf-o"></i></a>] on this topic to a joint committee meeting of the New York City Council.</p>
+                            <div class="collapse" id="rtaVideo">
+                                <div class="videoWrapperWrapper">
+                                    <div class="videoWrapper">
+                                        <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
-				</div>
-				<div class="card bottomcard">
-                    <div class="card-header not-top-card-header" role="tab">
-                        <h4 class="mb-0">
-                        	<a data-toggle="collapse" href="#met" aria-controls="met" aria-expanded="false">
-	                        	Metropolitan Council on Housing <i class="fa fa-angle-down"></i>
-							</a>
-                    	</h4>
-                    </div>
-                    <div id="met" class="collapse" role="tabpanel">
-                        <div class="card-block">
-                            <a href="http://metcouncilonhousing.org/"><img class="projectpartnerlogo" src="logos/met.png"></a>
-                        
-                            <p>The <a href="http://metcouncilonhousing.org/">Metropolitan Council on Housing</a> is a tenants' rights organization that has been fighting for safe, decent, and affordable housing in New York City for over 50 years. Every year, thousands of New Yorkers use the Council's telephone hotline or walk-in clinic to get assistance with their housing.</p>
-                            <p>At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
-                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="project-block">
+                        <a href="http://metcouncilonhousing.org/"><img class="projectpartnerlogo" src="logos/met.png"></a>
+                    
+                        <p>The <a href="http://metcouncilonhousing.org/">Metropolitan Council on Housing</a> is a tenants' rights organization that has been fighting for safe, decent, and affordable housing in New York City for over 50 years. Every year, thousands of New Yorkers use the Council's telephone hotline or walk-in clinic to get assistance with their housing.</p>
+                        <p>At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
                     </div>
                 </div>
             </div>
@@ -223,7 +210,7 @@
                                     <i class="fa fa-envelope"></i>
                                 </a>
                             </h4>
-                            <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and founded ScAAN to bridge the gap between scientists and organizations working for the public good. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
+                            <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and briding the gap between scientists and organizations working for the public good. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
                         </div>
                     </div>
                     <div class="media member">

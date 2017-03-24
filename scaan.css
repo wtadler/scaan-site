@@ -83,31 +83,7 @@ h4 .fa-angle-down {
 	margin-bottom: -2px;
 }
 
- /* no radius on all cards... */
-.card {
-	border-radius: 0rem;
-	border-color: #ddd;
-}
 
- /* ...except the top card */
-/*.topcard {
-	border-radius: .25rem .25rem 0 0;
-}*/
-
-/* all card-headers have default border-radius on all four corners...
-...except now we make it only the top one */
-.not-top-card-header {
-	border-radius: 0 !important;
-}
-
-.card-header {
-	border-bottom: 0px;
-	background-color: rgb(241, 241, 241);
-}
-
-.bottomcard {
-	top: -1px;
-}
 
 input, textarea, select, button {
   font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -131,9 +107,11 @@ input, textarea, select, button {
 	height: 100%;
 }
 
+/*
 .videoWrapperWrapper {
 	max-width: 600px;
 }
+*/
 
 .eventLoc {
 	color: #999;
@@ -155,4 +133,14 @@ input, textarea, select, button {
 	float: right;
 	position: relative;
 	top: 0.65em;
+}
+
+.project-block {
+	border: 1px solid #ddd;
+	padding: 15px;
+	border-radius: .25rem;
+}
+
+.top-block {
+	margin-bottom: 8px;
 }

@@ -1324,7 +1324,7 @@ be a descendant of the grid when it is being dragged.
 
 .fc-list-table td {
 	border-width: 0px;
-	padding: 8px 14px;
+	padding: 5px 10px;
 }
 
 .fc-list-table tr:first-child td {
