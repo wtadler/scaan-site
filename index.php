@@ -115,17 +115,14 @@
                 <p>Currently, New York State and North Carolina are the only two states that prosecute all 16- and 17-year-olds as adults, incarcerating them in adult jails and prisons, severely affecting their re-entry, rehabilitation, and social development. <a href="http://raisetheageny.com/">Raise the Age NY</a> is a campaign that supports a comprehensive approach to raising the age of criminal responsibility in New York State.</p>
 
                 <p>We compiled the most current findings on adolescent brain development into a report for Raise the Age NY. The research shows that the adolescent brain is different from the adult brain; it is still under development, and very sensitive to life experiences. This means that the trauma induced by incarceration can have long-lasting effects. However, it also means that the adolescent brain should be particularly amenable to rehabilitation in programs that recognize the difference between adolescents and adults. You can <nobr><a href="docs/ScAAN_RTA_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> the full report or read it here:</p>
+                
+                <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" style="width:100%; height:400px;" frameborder="0"></iframe>
 
-                <p>
-                    <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" style="width:100%; height:400px;" frameborder="0"></iframe>
-                </p>
+                <p style="margin-top: 20px">We also delivered a statement on this topic to a joint committee meeting of the New York City Council. You can <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> the statement or watch it here:</p>
 
-                <p>We also delivered a statement [<nobr><a data-toggle="collapse" href="#rtaVideo" aria-expanded="false" aria-controls="rtaVideo">video <i class="fa fa-angle-down"></i></a></nobr>, <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>pdf <i class="fa fa-file-pdf-o"></i></a></nobr>] on this topic to a joint committee meeting of the New York City Council.</p>
-                <div class="collapse" id="rtaVideo">
-                    <div class="videoWrapperWrapper">
-                        <div class="videoWrapper">
-                            <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?modestbranding=1" frameborder="0" allowfullscreen></iframe>
-                        </div>
+                <div class="videoWrapperWrapper">
+                    <div class="videoWrapper">
+                        <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?modestbranding=1" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

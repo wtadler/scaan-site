@@ -105,13 +105,16 @@ input, textarea, select, button {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	margin: auto;
 }
 
-/*
+
 .videoWrapperWrapper {
-	max-width: 600px;
+	max-width: 550px;
+	position: relative;
+	margin: auto;
 }
-*/
+
 
 .eventLoc {
 	color: #999;
