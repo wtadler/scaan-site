@@ -130,7 +130,8 @@
                 <a href="http://metcouncilonhousing.org/"><img class="projectpartnerlogo" src="logos/met.png"></a>
 
                 <p>The <a href="http://metcouncilonhousing.org/">Metropolitan Council on Housing</a> is a tenants' rights organization that has been fighting for safe, decent, and affordable housing in New York City for over 50 years. Every year, thousands of New Yorkers use the Council's telephone hotline or walk-in clinic to get assistance with their housing.</p>
-                <p>At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
+                
+                <p style="margin-bottom: 0">At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
             </div>
         </div>
     </div>
