@@ -18,6 +18,10 @@ h1,h2 {
 .jumbotron {
 	border-radius: 0rem;
 	background-color: #000073;
+	background-image: url("banner.svg");
+	background-position: 50% 14%;
+	background-size: 1500px;
+	background-repeat: no-repeat, no-repeat;
 	color: #fff;
 	padding-top: 2rem;
 	padding-bottom: 1rem;
