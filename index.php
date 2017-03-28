@@ -140,7 +140,7 @@
 
                 <p style="margin-top: 1rem;">You can <nobr><a href="docs/ScAAN_RTA_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> the full report or read it here:</p>
                 
-                <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" style="width:100%; height:400px;" frameborder="0"></iframe>
+                <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" style="width:100%; height:400px; border: 1px solid #ddd" frameborder="0"></iframe>
 
 
             </div>
@@ -231,7 +231,7 @@
                                     <i class="fa fa-envelope"></i>
                                 </a>
                             </h4>
-                            <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and briding the gap between scientists and organizations working for the public good. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
+                            <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and briding the gap between scientists and organizations working in the public interest. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
                         </div>
                     </div>
                     <div class="media member">
@@ -255,7 +255,7 @@
                                 </a>
                             </h4>
 
-                            <p>Jenn is a predoctoral fellow in the Center for Neural Science at NYU. She is spearheading ScAAN's project with Raise the Age NY, providing scientific support for legislation that would raise the age at which juveniles are tried as adults in New York State. She is interested in working with public advocacy groups in general.</p>
+                            <p>Jenn is a predoctoral fellow in the Center for Neural Science at NYU. She is the project leader for ScAAN's collaboration with Raise the Age NY. She is interested in forming more collaborations with public advocacy groups, particularly around issues of criminal justice.</p>
                         </div>
                     </div>
 
