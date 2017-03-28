@@ -55,7 +55,7 @@
 		        eventRender: function(event, element, view) {
 	        	if (event.location) {
 			        element.find(".fc-list-item-title")
-			            .append("<div class='eventLoc'>" + event.location + "</div>");
+			            .append("<div class='small eventLoc'>" + event.location + "</div>");
 		    	}
 			}
 
@@ -76,6 +76,17 @@
 </head>
 
 <body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=249866681730592";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="jumbotron">
     <div class="container">
         <div class="row">
@@ -85,8 +96,9 @@
             <div class="col-lg">
                 <h1 class="bigtitle">Scientist Action and Advocacy Network</h1>
             </div>
-       </div>
-       <p>We are a New York-based group of scientists that partners with organizations that are creating positive social change.</p>
+        </div>
+        <p>We are a New York-based group of scientists that partners with organizations that are creating positive social change.</p>
+
     </div>  
 </div>
 
@@ -105,8 +117,10 @@
         </div>
     </div>
 
+    <hr>
+
     <div class="row">
-        <div class="col-md-10 offset-md-1">
+        <div class="col-md-9">
             <h2>Current Partnerships</h2>
 
             <div class="project-block top-block">
@@ -138,6 +152,23 @@
                 <p style="margin-bottom: 0">At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
             </div>
         </div>
+
+        <div class="col-md-3 hidden-sm-down">
+            <h2>Facebook</h2>
+            <div style="max-width:100%">
+                <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
+            </div>
+
+            <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
+            
+            <div style="border: 1px solid #ddd;">
+                <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
+                data-chrome="nofooter noheader noborders"
+                data-height="1162"></a>
+            </div>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
     </div>
     <hr>
     
@@ -171,30 +202,23 @@
             </p>
         </div>
         <div class="col-md-6">
-        <h2>Upcoming Events</h2>
-        <div class="calendarWarning">To ensure access to the building, please contact us before coming to your first general meeting or working group.</div>
-        <div id='calendar'></div>
-		<div id="addGCal">
-			 <!-- go to google calendar -->
-			<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York" target="_blank">
-	            <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
-            </a>            
+            <h2>Upcoming Events</h2>
+            <div class="small calendarWarning">To ensure access to the building, please contact us before coming to your first general meeting or working group.</div>
+            <div id='calendar'></div>
+    		<div id="addGCal">
+    			 <!-- go to google calendar -->
+    			<a href="https://calendar.google.com/calendar/embed?src=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com&ctz=America/New_York" target="_blank">
+    	            <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
+                </a>            
 
-			<!-- add google calendar hack -->
-			<!-- <a href="https://calendar.google.com/calendar/render?cid=nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com" target="_blank">
-				<img src="logos/gcal.gif">
-			</a> -->
-		</div>
-        <!-- embed google calendar (ugly)
-        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=349&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nyu.edu_ifm76t83fckh8jviji92irkjk8%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="349px" frameborder="0" scrolling="yes"></iframe> -->
-
+    		</div>
         </div>
     </div>
 
     <hr>
     
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
             <h2 id="members">Members</h2>
             <div class="row">
                 <div class="col-md-6">
@@ -327,21 +351,24 @@
             </div>
         </div>
         
-        <div class="col-md-3">
-            <h2 style="display:inline">Tweets</h2>
-            <span class="follow-button">
-                <a class="twitter-follow-button" href="https://twitter.com/ScientistAction" data-show-count="false">
-                    Follow @ScientistAction
-                </a>
-            </span>
+    </div>
+
+    <div class="hidden-md-up">
+        <hr>
+        <h2>Facebook</h2>
+        <div style="max-width:100%">
+            <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
+        </div>
+
+        <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
+        
+        <div style="border: 1px solid #ddd">
             <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
-                data-chrome="nofooter noheader noborders"
-                data-height="1054">
-                Tweets by ScientistAction
-            </a>
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            data-chrome="nofooter noheader noborders"
+            data-height="500"></a>
         </div>
     </div>
+
 
     <hr>
     <footer>
