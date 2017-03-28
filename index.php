@@ -320,33 +320,17 @@
 
 
                     <div class="media member">
-                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
+                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/david_sq.jpg">
                         <div class="media-body">
-                            <h4 class="mt-0">David Halpern</h4>
+                            <h4 class="mt-0">David Halpern
+                                <a class="email" href="mailto:david.halpern@nyu.edu" title="david.halpern@nyu.edu">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </h4>
+    
+                            <p>David is a predoctoral candidate in psychology at NYU. He is interested in the intersection of public policy and cognitive/behavioral science. Within ScAAN, he is interested in using psychology to inform progressive political campaigns and to get out the vote. He is currently working with the Metropolitan Council on Housing to collect and make better use of their own data and public domain data.</p>
                         </div>
                     </div>
-
-                    <div class="media member">
-                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
-                        <div class="media-body">
-                            <h4 class="mt-0">William F. Broderick</h4>
-                        </div>
-                    </div>
-
-                    <div class="media member">
-                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
-                        <div class="media-body">
-                            <h4 class="mt-0">Owen Marschall</h4>
-                        </div>
-                    </div>
-
-                    <div class="media member">
-                        <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/px.png" height=1>
-                        <div class="media-body">
-                            <h4 class="mt-0">Andra Mihali</h4>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
