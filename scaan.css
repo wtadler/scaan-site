@@ -152,3 +152,7 @@ input, textarea, select, button {
 .top-block {
 	margin-bottom: 16px;
 }
+
+.twitter-timeline {
+	margin-bottom: -8px !important;
+}

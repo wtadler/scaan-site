@@ -164,7 +164,7 @@
             <div style="border: 1px solid #ddd;">
                 <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
                 data-chrome="nofooter noheader noborders"
-                data-height="1162"></a>
+                data-height="1174"></a>
             </div>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
