@@ -301,7 +301,7 @@
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
                     <div class="media-body">
-                        <h4 class="mt-0">EG Gaffin-Cahn, MSc
+                        <h4 class="mt-0">EG Gaffin-Cahn, MA
                             <a class="email" href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
                                 <i class="fa fa-envelope"></i>
                             </a>
