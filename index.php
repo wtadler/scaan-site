@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change.">
-    <meta property="og:description" content="We are a New York-based group of scientists who partner with partisan and non-partisan organizations that are creating positive social change." />
+    <meta name="description" content="We are a New York-based group of scientists who partner with organizations that are creating positive social change.">
+    <meta property="og:description" content="We are a New York-based group of scientists who partner with organizations that are creating positive social change." />
     <meta property="og:url" content="http://www.scaan.net/" />
     <meta property="og:title" content="Scientist Action and Advocacy Network" />
     <meta property="og:image" content="http://www.scaan.net/logos/logo_blue.png" />
@@ -97,7 +97,7 @@
                     <h1 class="bigtitle">Scientist Action and Advocacy Network</h1>
                 </div>
             </div>
-            <p>We are a New York-based group of scientists that partners with organizations that are creating positive social change.</p>
+            <p>We are a New York-based group of scientists who partner with organizations that are creating positive social change.</p>
         </div>  
     </div>
 
