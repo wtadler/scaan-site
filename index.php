@@ -227,7 +227,7 @@
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
-                        <p>Will is the founder of ScAAN and a predoctoral fellow in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and briding the gap between scientists and organizations working in the public interest. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
+                        <p>Will is the founder of ScAAN and a doctoral student in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and briding the gap between scientists and organizations working in the public interest. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
                     </div>
                 </div>
                 <div class="media member">
@@ -251,7 +251,7 @@
                             </a>
                         </h4>
 
-                        <p>Jenn is a predoctoral fellow in the Center for Neural Science at NYU. She is the project leader for ScAAN's collaboration with Raise the Age NY. She is interested in forming more collaborations with public advocacy groups, particularly around issues of criminal justice.</p>
+                        <p>Jenn is a doctoral student in the Center for Neural Science at NYU. She is the project leader for ScAAN's collaboration with Raise the Age NY. She is interested in forming more collaborations with public advocacy groups, particularly around issues of criminal justice.</p>
                     </div>
                 </div>
 
@@ -268,6 +268,19 @@
                     </div>
                 </div>
 
+                <div class="media member">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/kristina_sq.jpg">
+                    <div class="media-body">
+                        <h4 class="mt-0">Kristina Penikis
+                            <a class="email" href="mailto:kbp254@nyu.edu" title="kbp254@nyu.edu">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </h4>
+
+                        <p>Kristina is a doctoral student at the Center for Neural Science at NYU. She is a firm believer that policy should be informed by empirical evidence, and she is passionate about fighting for social justice and for the dignity of marginalized persons. She is currently collaborating with Solitary Watch to provide scientific evidence in favor of legislation that limits the largely unregulated use of solitary confinement in US prisons.</p>
+                    </div>
+                </div>
+
             </div>
 
             <div class="col-md-6">
@@ -281,7 +294,7 @@
                             </a>
 
                         </h4>
-                        <p>Silvia is a predoctoral fellow at the Center for Neural Science at NYU, where she studies the connection between drug addiction and decision-making. She is interested in supporting advocacy groups fighting against juvenile incarceration, racial profiling, and the criminalization of drug addiction. She is working on an initiative to connect public defenders with scientific expert witnesses.</p>
+                        <p>Silvia is a doctoral student at the Center for Neural Science at NYU, where she studies the connection between drug addiction and decision-making. She is interested in supporting advocacy groups fighting against juvenile incarceration, racial profiling, and the criminalization of drug addiction. She is working on an initiative to connect public defenders with scientific expert witnesses.</p>
                     </div>
                 </div>
 
@@ -294,7 +307,7 @@
                             </a>
                         </h4>
 
-                        <p>Milenna is a predoctoral fellow in neuroscience at the NYU School of Medicine. She is working on ScAAN’s Raise the Age project, and is also interested in supporting campaigns that work to restrict solitary confinement. Specifically, she is gathering research findings that demonstrate the trauma and long-term negative consequences of solitary confinement of juveniles and of juveniles being held in adult jails and prisons.</p>
+                        <p>Milenna is a doctoral student in neuroscience at the NYU School of Medicine. She is working on ScAAN’s Raise the Age project, and is also interested in supporting campaigns that work to restrict solitary confinement. Specifically, she is gathering research findings that demonstrate the trauma and long-term negative consequences of solitary confinement of juveniles and of juveniles being held in adult jails and prisons.</p>
                     </div>
                 </div>
 
@@ -307,11 +320,9 @@
                             </a>
                         </h4>
 
-                        <p>EG is a predoctoral candidate in psychology at NYU. He is a promoter of open access and uncensored government-funded research. He is also interested in building the public's trust in science as a means to improving the long-term well-being of our society.</p>
+                        <p>EG is a doctoral student in psychology at NYU. He is a promoter of open access and uncensored government-funded research. He is also interested in building the public's trust in science as a means to improving the long-term well-being of our society.</p>
                     </div>
                 </div>
-
-
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/david_sq.jpg">
@@ -322,7 +333,20 @@
                             </a>
                         </h4>
 
-                        <p>David is a predoctoral candidate in psychology at NYU. He is interested in the intersection of public policy and cognitive/behavioral science. Within ScAAN, he is interested in using psychology to inform progressive political campaigns and to get out the vote. He is currently working with the Metropolitan Council on Housing to collect and make better use of their own data and public domain data.</p>
+                        <p>David is a doctoral student in psychology at NYU. He is interested in the intersection of public policy and cognitive/behavioral science. Within ScAAN, he is interested in using psychology to inform progressive political campaigns and to get out the vote. He is currently working with the Metropolitan Council on Housing to collect and make better use of their own data and public domain data.</p>
+                    </div>
+                </div>
+
+                <div class="media member">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/stephen_sq.jpg">
+                    <div class="media-body">
+                        <h4 class="mt-0">Stephen Braren
+                            <a class="email" href="mailto:stephen.braren@nyu.edu" title="stephen.braren@nyu.edu">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </h4>
+
+                        <p>Stephen is a doctoral student in developmental psychology at NYU. He is interested in how social and biological factors contribute to learning and cognitive development, particularly within the context of stress and poverty. Ultimately, he hopes that his research will inform education and health policy.</p>
                     </div>
                 </div>
             </div>
