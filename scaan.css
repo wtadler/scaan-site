@@ -123,18 +123,21 @@ input, textarea, select, button {
 	font-size: 0.9rem;
 }
 
-.eventLoc {
+.grayText {
 	color: #999;
 }
 
 .calendarWarning {
-	color: #999;
 	margin-top: -.5rem;
 	margin-bottom: .4rem;
 }
 
 .fc-list-item {
 	border-bottom: 1px solid #ddd;
+}
+
+.grayBorder {
+	border: 1px solid #ddd;
 }
 
 .follow-button {
@@ -155,4 +158,16 @@ input, textarea, select, button {
 
 .twitter-timeline {
 	margin-bottom: -8px !important;
+}
+
+.fitWidth {
+	max-width: 100%;
+}
+
+.lastPara {
+	margin-bottom: 0;
+}
+
+.caption {
+	margin-bottom: 0.5rem;
 }

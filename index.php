@@ -55,7 +55,7 @@
               eventRender: function(event, element, view) {
                   if (event.location) {
                      element.find(".fc-list-item-title")
-                     .append("<div class='small eventLoc'>" + event.location + "</div>");
+                     .append("<div class='small grayText'>" + event.location + "</div>");
                  }
              }
 
@@ -93,7 +93,7 @@
                 <div class="col-lg-2">
                     <img class="logo" src="logos/logo_white.svg" alt="">
                 </div>
-                <div class="col-lg">
+                <div class="col-lg-10">
                     <h1 class="bigtitle">Scientist Action and Advocacy Network</h1>
                 </div>
             </div>
@@ -125,45 +125,57 @@
                 <div class="project-block top-block">
                     <a href="http://raisetheageny.com/"><img class="projectpartnerlogo" src="logos/raisetheage_square.png"></a>
 
-                    <p>Currently, New York State and North Carolina are the only two states that prosecute all 16- and 17-year-olds as adults, incarcerating them in adult jails and prisons, severely affecting their re-entry, rehabilitation, and social development. <a href="http://raisetheageny.com/">Raise the Age NY</a> is a campaign that supports a comprehensive approach to raising the age of criminal responsibility in New York State.</p>
+                    <p>Until recently, New York State and North Carolina were the only two states to prosecute all 16- and 17-year-olds as adults, incarcerating them in adult jails and prisons, severely affecting their re-entry, rehabilitation, and social development. <a href="http://raisetheageny.com/">Raise the Age NY</a> is a campaign that supports a comprehensive approach to raising the age of criminal responsibility in New York State.</p>
 
-                    <p>We compiled the most current findings on adolescent brain development. The research shows that the adolescent brain is different from the adult brain; it is still under development, and very sensitive to life experiences. This means that the trauma induced by incarceration can have long-lasting effects. However, it also means that the adolescent brain should be particularly amenable to rehabilitation in programs that recognize the difference between adolescents and adults.</p>
+                    <p>In partnership with Raise the Age NY, we compiled a report of the most current research on adolescent brain development. The research shows that the adolescent brain is different from the adult brain: it is still under development, and very sensitive to life experiences. This means that the trauma induced by incarceration can have long-lasting effects. However, it also means that the adolescent brain should be particularly amenable to rehabilitation in programs that recognize the difference between adolescents and adults.</p>
+                    
+                    <p>As New York legislators were drafting a bill to raise the age, we went directly to lawmakers to share the research summarized in our report.</p>
 
-                    <p>We delivered a statement on this topic to a joint committee meeting of the New York City Council. You can <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> the statement or watch it here:</p>
+                    <div class="row">
+                    <div class="col-lg">
+                        <img class="img-fluid fitWidth" src="img/jenn_presser_16by9_sm.jpg">
 
-                    <div class="videoWrapperWrapper">
-                        <div class="videoWrapper">
-                            <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?modestbranding=1" frameborder="0" allowfullscreen></iframe>
-                        </div>
+                        <div class="small grayText caption">In March 2017, Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY.</div>
                     </div>
 
-                    <p style="margin-top: 1rem;">You can <nobr><a href="docs/ScAAN_RTA_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> the full report or read it here:</p>
+                    <div class="col-lg">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?showinfo=0&rel=0" allowfullscreen></iframe>
+                        </div>
+                        <div class="small grayText caption">In January 2017, Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council.</div>
+                    </div>
+                    </div>
 
-                    <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" style="width:100%; height:400px; border: 1px solid #ddd" frameborder="0"></iframe>
+                    <p style="margin-top: 1rem;">You can <nobr><a href="docs/ScAAN_RTA_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
+
+                    <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
+
+                    <p class="lastPara">In April 2017, after years of debate, Governor Cuomo signed legislation to raise the age of criminal responsibility to 18 years of age.</p>
 
 
                 </div>
+
                 <div class="project-block">
                     <a href="http://metcouncilonhousing.org/"><img class="projectpartnerlogo" src="logos/met.png"></a>
 
                     <p>The <a href="http://metcouncilonhousing.org/">Metropolitan Council on Housing</a> is a tenants' rights organization that has been fighting for safe, decent, and affordable housing in New York City for over 50 years. Every year, thousands of New Yorkers use the Council's telephone hotline or walk-in clinic to get assistance with their housing.</p>
 
-                    <p style="margin-bottom: 0">At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
+                    <p class="lastPara">At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
                 </div>
             </div>
 
             <div class="col-md-3 hidden-sm-down">
                 <h2>Facebook</h2>
-                <div style="max-width:100%">
+                <div class="fitWidth">
                     <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
                 </div>
 
                 <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
 
-                <div style="border: 1px solid #ddd;">
+                <div class="grayBorder">
                     <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
                     data-chrome="nofooter noheader noborders"
-                    data-height="1174"></a>
+                    data-height="1179"></a>
                 </div>
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
@@ -202,7 +214,7 @@
             </div>
             <div class="col-md-6">
                 <h2>Upcoming Events</h2>
-                <div class="small calendarWarning">To ensure access to the building, please contact us before coming to your first general meeting or working group.</div>
+                <div class="small calendarWarning grayText">To ensure access to the building, please contact us before coming to your first general meeting or working group.</div>
                 <div id='calendar'></div>
                 <div id="addGCal">
                     <!-- go to google calendar -->
@@ -355,13 +367,13 @@
         <div class="hidden-md-up">
             <hr>
             <h2>Facebook</h2>
-            <div style="max-width:100%">
+            <div class="fitWidth">
                 <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
             </div>
 
             <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
 
-            <div style="border: 1px solid #ddd">
+            <div class="grayBorder">
                 <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
                 data-chrome="nofooter noheader noborders"
                 data-height="500"></a>
