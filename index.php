@@ -239,7 +239,7 @@
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
-                        <p>Will is the founder of ScAAN and a doctoral student in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and briding the gap between scientists and organizations working in the public interest. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
+                        <p>Will is the founder of ScAAN and a doctoral student in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and bridging the gap between scientists and organizations working in the public interest. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
                     </div>
                 </div>
                 <div class="media member">
