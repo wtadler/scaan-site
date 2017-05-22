@@ -116,7 +116,7 @@
             </div>
         </div>
 
-        <hr>
+        <hr class="grayBorder">
 
         <div class="row">
             <div class="col-md-9">
@@ -178,8 +178,10 @@
 
             <div class="col-md-3 hidden-sm-down">
                 <h2>Facebook</h2>
-                <div class="fitWidth">
-                    <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
+                <div style="-webkit-box-shadow:inset 0px 0px 0px 1px #ddd; -moz-box-shadow:inset 0px 0px 0px 1px #ddd; box-shadow:inset 0px 0px 0px 1px #ddd;">
+                    <div class="fitWidth">
+                        <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
+                    </div>
                 </div>
 
                 <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
@@ -193,7 +195,7 @@
             </div>
 
         </div>
-        <hr>
+        <hr class="grayBorder">
 
         <div class="row">
             <div class="col-md-6">
@@ -207,15 +209,15 @@
                     <form id="contact-form" method="post" action="scripts/contact.php" role="form">
                         <div class="controls">
                             <div class="form-group">
-                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Your name is required.">
+                                <input id="form_name" type="text" name="name" class="form-control grayBorder" placeholder="Name" required="required" data-error="Your name is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
-                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="A valid email is required.">
+                                <input id="form_email" type="email" name="email" class="form-control grayBorder" placeholder="Email" required="required" data-error="A valid email is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="5" required="required" data-error="A message is required."></textarea>
+                                <textarea id="form_message" name="message" class="form-control grayBorder" placeholder="Message" rows="5" required="required" data-error="A message is required."></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="messages"></div>
@@ -237,7 +239,7 @@
             </div>
         </div>
 
-        <hr>
+        <hr class="grayBorder">
 
         <h2 id="members">Members</h2>
         <div class="row">
@@ -380,7 +382,7 @@
         </div>
 
         <div class="hidden-md-up">
-            <hr>
+            <hr class="grayBorder">
             <h2>Facebook</h2>
             <div class="fitWidth">
                 <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
@@ -396,7 +398,7 @@
         </div>
 
 
-        <hr>
+        <hr class="grayBorder">
         <footer>
             <p>&copy; Scientist Action and Advocacy Network <?php echo date("Y"); ?></p>
         </footer>
