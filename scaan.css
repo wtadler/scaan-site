@@ -59,6 +59,10 @@ footer {
 	margin-top: 0.25rem;
 }
 
+.logoblock {
+	text-align: center;
+}
+
 img.headshot {
 	width: 85px;
 }
@@ -176,4 +180,51 @@ input, textarea, select, button {
 
 .caption {
 	margin-bottom: 0.5rem;
+}
+
+.nav-tabs {
+	border-color: rgba(255,255,255,0) !important;
+}
+
+.nav-link.active {
+	border-color: rgba(255,255,255,0) !important;
+	background-color: #f2f2f2 !important;
+}
+
+.nav-tabs {
+	border: 0px;
+}
+
+.nav-tabs .nav-link {
+	border-bottom: 0px;
+	text-align: center;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	border: 1px solid #ddd;
+	border-bottom: 0px;
+}
+
+
+@media (max-width: 405px) {
+	.nav-tabs .nav-link {
+	height: 113px;
+	}
+}
+
+@media (min-width: 406px) and (max-width: 457px) {
+	.nav-tabs .nav-link {
+	height: 89px;
+	}
+}
+
+@media (max-width: 472px) {
+	.projectpartnerlogo {
+		float: none;
+	}
+}
+
+a.nav-link {
+	display: table-cell;
+	vertical-align: bottom;
 }

@@ -122,57 +122,83 @@
             <div class="col-md-9">
                 <h2>Current Partnerships</h2>
 
-                <div class="project-block top-block">
-                    <a href="http://raisetheageny.com/"><img class="projectpartnerlogo" src="logos/raisetheage_square.png"></a>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#rta" role="tab">Raise the Age NY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#caic" role="tab">NY CAIC & Solitary Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#met" role="tab">Metropolitan Council on Housing</a>
+                    </li>
+                </ul>
 
-                    <p>Until recently, New York State and North Carolina were the only two states to prosecute all 16- and 17-year-olds as adults, incarcerating them in adult jails and prisons, severely affecting their re-entry, rehabilitation, and social development. <a href="http://raisetheageny.com/">Raise the Age NY</a> is a campaign that supports a comprehensive approach to raising the age of criminal responsibility in New York State.</p>
-
-                    <p>In partnership with Raise the Age NY, we compiled a report of the most current research on adolescent brain development. The research shows that the adolescent brain is different from the adult brain: it is still under development, and very sensitive to life experiences. This means that the trauma induced by incarceration can have long-lasting effects. However, it also means that the adolescent brain should be particularly amenable to rehabilitation in programs that recognize the difference between adolescents and adults.</p>
-                    
-                    <p>As New York legislators were drafting a bill to raise the age, we went directly to lawmakers to share the research summarized in our report.</p>
-
-                    <div class="row">
-                        <div class="col-lg">
-                            <img class="img-fluid fitWidth" src="img/jenn_presser_16by9_sm.jpg">
-
-                            <div class="small grayText caption">In March 2017, Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY.</div>
-                        </div>
-
-                        <div class="col-lg">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?showinfo=0&rel=0" allowfullscreen></iframe>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="rta" role="tabpanel">
+                      
+                        <div class="project-block top-block">
+                            <div class="logoblock">
+                                <a href="http://raisetheageny.com/"><img class="projectpartnerlogo" src="logos/raisetheage_square.png"></a>
                             </div>
-                            <div class="small grayText caption">In January 2017, Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council.</div>
+
+                            <p>Until recently, New York State and North Carolina were the only two states to prosecute all 16- and 17-year-olds as adults, incarcerating them in adult jails and prisons, severely affecting their re-entry, rehabilitation, and social development. <a href="http://raisetheageny.com/">Raise the Age NY</a> is a campaign that supports a comprehensive approach to raising the age of criminal responsibility in New York State.</p>
+
+                            <p>In partnership with Raise the Age NY, we compiled a report of the most current research on adolescent brain development. The research shows that the adolescent brain is different from the adult brain: it is still under development, and very sensitive to life experiences. This means that the trauma induced by incarceration can have long-lasting effects. However, it also means that the adolescent brain should be particularly amenable to rehabilitation in programs that recognize the difference between adolescents and adults.</p>
+                        
+                            <p>As New York legislators were drafting a bill to raise the age, we went directly to lawmakers to share the research summarized in our report.</p>
+
+                            <div class="row">
+                                <div class="col-lg">
+                                    <img class="img-fluid fitWidth" src="img/jenn_presser_16by9_sm.jpg">
+
+                                    <div class="small grayText caption">In March 2017, Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY.</div>
+                                </div>
+
+                                <div class="col-lg">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?showinfo=0&rel=0" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="small grayText caption">In January 2017, Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council.</div>
+                                </div>
+                            </div>
+
+                            <p style="margin-top: 1rem;">You can <nobr><a href="docs/ScAAN_RTA_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
+
+                            <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
+
+                            <p class="lastPara">In April 2017, after years of debate, Governor Cuomo signed legislation to raise the age of criminal responsibility to 18 years of age.</p>
                         </div>
                     </div>
 
-                    <p style="margin-top: 1rem;">You can <nobr><a href="docs/ScAAN_RTA_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
+                    <div class="tab-pane" id="caic" role="tabpanel">
+                        <div class="project-block top-block">
+                            <div class="logoblock">
+                                <a href="http://nycaic.org/"><img class="projectpartnerlogo" src="logos/CAIC.png" style="margin-right: 1rem"></a><a href="http://solitarywatch.com/"><img class="projectpartnerlogo" src="logos/SW.jpg"></a>
+                            </div>
 
-                    <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
+                            <p>People living in solitary confinement spend 22-24 hours a day in a jail cell the size of a parking space. In this environment, they are deprived of meaningful social contact, physical exercise, and mental stimulation. These conditions have severe impacts on the individual’s physical and psychological health. Solitary confinement is not only inhumane but counterproductive, leading to increased aggression and higher rates of recidivism. The <a href="http://nycaic.org">NY Campaign for Alternatives to Isolated Confinement</a> is working to pass the Humane Alternatives to Long-Term (HALT) Solitary Confinement Act in New York State, a bill which would limit the use of solitary confinement in favor of more effective alternatives.</p>
 
-                    <p class="lastPara">In April 2017, after years of debate, Governor Cuomo signed legislation to raise the age of criminal responsibility to 18 years of age.</p>
-                </div>
+                            <p>We compiled a brief report on the psychological and neurological consequences of solitary confinement. The NY Campaign for Alternatives to Isolated Confinement has used the report to lobby for the HALT Act in Albany. You can <nobr><a href="docs/ScAAN_Solitary_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
 
+                            <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_Solitary_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
 
-                <div class="project-block top-block">
-                    <a href="http://nycaic.org/"><img class="projectpartnerlogo" src="logos/CAIC.png" style="margin-right: 1rem"></a><a href="http://solitarywatch.com/"><img class="projectpartnerlogo" src="logos/SW.jpg"></a>
+                            <p class="lastPara">Additionally, we have partnered with <a href="http://solitarywatch.com/">Solitary Watch</a>, a national watchdog agency. Our next project is to make factsheets for their website, in order to increase public awareness of the effects of solitary confinement. We also plan to help them analyze survey data that is currently being collected from prisoners in solitary confinement.</p>
+                        </div>
+                    </div>
 
-                    <p>People living in solitary confinement spend 22-24 hours a day in a jail cell the size of a parking space. In this environment, they are deprived of meaningful social contact, physical exercise, and mental stimulation. These conditions have severe impacts on the individual’s physical and psychological health. Solitary confinement is not only inhumane but counterproductive, leading to increased aggression and higher rates of recidivism. The <a href="http://nycaic.org">NY Campaign for Alternatives to Isolated Confinement</a> is working to pass the Humane Alternatives to Long-Term (HALT) Solitary Confinement Act in New York State, a bill which would limit the use of solitary confinement in favor of more effective alternatives.</p>
+                    <div class="tab-pane" id="met" role="tabpanel">
+                        <div class="project-block">
+                            <div class="logoblock">
+                                <a href="http://metcouncilonhousing.org/"><img class="projectpartnerlogo" src="logos/met.png"></a>
+                            </div>
 
-                    <p>We compiled a brief report on the psychological and neurological consequences of solitary confinement. The NY Campaign for Alternatives to Isolated Confinement has used the report to lobby for the HALT Act in Albany. You can <nobr><a href="docs/ScAAN_Solitary_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
+                            <p>The <a href="http://metcouncilonhousing.org/">Metropolitan Council on Housing</a> is a tenants' rights organization that has been fighting for safe, decent, and affordable housing in New York City for over 50 years. Every year, thousands of New Yorkers use the Council's telephone hotline or walk-in clinic to get assistance with their housing.</p>
 
-                    <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_Solitary_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
-
-                    <p>Additionally, we have partnered with <a href="http://solitarywatch.com/">Solitary Watch</a>, a national watchdog agency. Our next project is to make factsheets for their website, in order to increase public awareness of the effects of solitary confinement. We also plan to help them analyze survey data that is currently being collected from prisoners in solitary confinement.</p>
-
-                </div>
-
-                <div class="project-block">
-                    <a href="http://metcouncilonhousing.org/"><img class="projectpartnerlogo" src="logos/met.png"></a>
-
-                    <p>The <a href="http://metcouncilonhousing.org/">Metropolitan Council on Housing</a> is a tenants' rights organization that has been fighting for safe, decent, and affordable housing in New York City for over 50 years. Every year, thousands of New Yorkers use the Council's telephone hotline or walk-in clinic to get assistance with their housing.</p>
-
-                    <p class="lastPara">At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
+                            <p class="lastPara">At ScAAN, we are helping the Council understand the people they serve in order to better address their needs. We are also producing reports that the Council can use in their campaigns to strengthen rent regulation laws.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -186,14 +212,15 @@
 
                 <div class="grayBorder">
                     <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
-                    data-chrome="nofooter noheader noborders"
-                    data-height="2055"></a>
+                    data-chrome="nofooter noheader noborders noscrollbar"
+                    data-dnt="true"
+                    data-height="450"></a>
                 </div>
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
 
         </div>
-        
+
         <hr class="grayBorder">
 
         <div class="row">
