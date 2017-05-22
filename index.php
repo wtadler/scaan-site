@@ -132,18 +132,18 @@
                     <p>As New York legislators were drafting a bill to raise the age, we went directly to lawmakers to share the research summarized in our report.</p>
 
                     <div class="row">
-                    <div class="col-lg">
-                        <img class="img-fluid fitWidth" src="img/jenn_presser_16by9_sm.jpg">
+                        <div class="col-lg">
+                            <img class="img-fluid fitWidth" src="img/jenn_presser_16by9_sm.jpg">
 
-                        <div class="small grayText caption">In March 2017, Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY.</div>
-                    </div>
-
-                    <div class="col-lg">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?showinfo=0&rel=0" allowfullscreen></iframe>
+                            <div class="small grayText caption">In March 2017, Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY.</div>
                         </div>
-                        <div class="small grayText caption">In January 2017, Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council.</div>
-                    </div>
+
+                        <div class="col-lg">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?showinfo=0&rel=0" allowfullscreen></iframe>
+                            </div>
+                            <div class="small grayText caption">In January 2017, Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council.</div>
+                        </div>
                     </div>
 
                     <p style="margin-top: 1rem;">You can <nobr><a href="docs/ScAAN_RTA_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
@@ -151,7 +151,19 @@
                     <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
 
                     <p class="lastPara">In April 2017, after years of debate, Governor Cuomo signed legislation to raise the age of criminal responsibility to 18 years of age.</p>
+                </div>
 
+
+                <div class="project-block top-block">
+                    <a href="http://nycaic.org/"><img class="projectpartnerlogo" src="logos/CAIC.png" style="margin-right: 1rem"></a><a href="http://solitarywatch.com/"><img class="projectpartnerlogo" src="logos/SW.jpg"></a>
+
+                    <p>People living in solitary confinement spend 22-24 hours a day in a jail cell the size of a parking space. In this environment, they are deprived of meaningful social contact, physical exercise, and mental stimulation. These conditions have severe impacts on the individual’s physical and psychological health. Solitary confinement is not only inhumane but counterproductive, leading to increased aggression and higher rates of recidivism. The <a href="http://nycaic.org">NY Campaign for Alternatives to Isolated Confinement</a> is working to pass the Humane Alternatives to Long-Term (HALT) Solitary Confinement Act in New York State, a bill which would limit the use of solitary confinement in favor of more effective alternatives.</p>
+
+                    <p>We compiled a brief report on the psychological and neurological consequences of solitary confinement. The NY Campaign for Alternatives to Isolated Confinement has used the report to lobby for the HALT Act in Albany. You can <nobr><a href="docs/ScAAN_Solitary_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
+
+                    <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_Solitary_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
+
+                    <p>Additionally, we have partnered with <a href="http://solitarywatch.com/">Solitary Watch</a>, a national watchdog agency. Our next project is to make factsheets for their website, in order to increase public awareness of the effects of solitary confinement. We also plan to help them analyze survey data that is currently being collected from prisoners in solitary confinement.</p>
 
                 </div>
 
@@ -175,7 +187,7 @@
                 <div class="grayBorder">
                     <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
                     data-chrome="nofooter noheader noborders"
-                    data-height="1179"></a>
+                    data-height="2055"></a>
                 </div>
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
@@ -239,7 +251,7 @@
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
-                        <p>Will is the founder of ScAAN and a doctoral student in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and bridging the gap between scientists and organizations working in the public interest. Will is particularly interested in issues relating to criminal justice and electoral reform.</p>
+                        <p>Will is the founder of ScAAN and a doctoral student in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and bridging the gap between scientists and organizations working in the public interest.</p>
                     </div>
                 </div>
                 <div class="media member">
@@ -345,7 +357,7 @@
                             </a>
                         </h4>
 
-                        <p>David is a doctoral student in psychology at NYU. He is interested in the intersection of public policy and cognitive/behavioral science. Within ScAAN, he is interested in using psychology to inform progressive political campaigns and to get out the vote. He is currently working with the Metropolitan Council on Housing to collect and make better use of their own data and public domain data.</p>
+                        <p>David is a doctoral student in psychology at NYU. He is interested in the intersection of public policy and cognitive/behavioral science. Within ScAAN, he is interested in using psychology to inform progressive political campaigns and to get out the vote. He is currently working with the Metropolitan Council on Housing to collect and make better use of their own data.</p>
                     </div>
                 </div>
 
