@@ -178,10 +178,8 @@
 
             <div class="col-md-3 hidden-sm-down">
                 <h2>Facebook</h2>
-                <div style="-webkit-box-shadow:inset 0px 0px 0px 1px #ddd; -moz-box-shadow:inset 0px 0px 0px 1px #ddd; box-shadow:inset 0px 0px 0px 1px #ddd;">
-                    <div class="fitWidth">
-                        <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
-                    </div>
+                <div class="fitWidth">
+                    <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
                 </div>
 
                 <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
@@ -195,6 +193,7 @@
             </div>
 
         </div>
+        
         <hr class="grayBorder">
 
         <div class="row">
