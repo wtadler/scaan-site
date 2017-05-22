@@ -263,7 +263,7 @@
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
-                        <p>Wei Ji is an associate professor of neural science and psychology at NYU, where <a href="http://www.cns.nyu.edu/malab/" title="Ma Lab">his research group</a> studies human decision-making, perception, and working memory. He is the first author of an upcoming textbook on mathematical models of behavior. Wei Ji has long-standing interests in education policy, non-profit management, and science outreach. He is the co-founder and chairman of the board of the <a href="http://ruralchina.org" title="Rural China Education Foundation">Rural China Education Foundation</a>, a 501(c)(3) non-profit organization which aims to improve the quality of primary education in rural China through student-centered teaching methods, community-based content, and sustainable teacher professional development.</p>
+                        <p>Wei Ji is an associate professor of neural science and psychology at NYU, where <a href="http://www.cns.nyu.edu/malab/" title="Ma Lab">his research group</a> studies human decision-making, perception, and working memory. He is the first author of an upcoming textbook on mathematical models of behavior. He has long-standing interests in education policy, non-profit management, and science outreach. He is the co-founder and chairman of the board of the <a href="http://ruralchina.org" title="Rural China Education Foundation">Rural China Education Foundation</a>, a 501(c)(3) non-profit organization which aims to improve the quality of primary education in rural China through student-centered teaching methods, community-based content, and sustainable teacher professional development.</p>
                     </div>
                 </div>
                 <div class="media member">
@@ -293,17 +293,18 @@
                 </div>
 
                 <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/kristina_sq.jpg">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/stephen_sq.jpg">
                     <div class="media-body">
-                        <h4 class="mt-0">Kristina Penikis
-                            <a class="email" href="mailto:kbp254@nyu.edu" title="kbp254@nyu.edu">
+                        <h4 class="mt-0">Stephen Braren
+                            <a class="email" href="mailto:stephen.braren@nyu.edu" title="stephen.braren@nyu.edu">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
 
-                        <p>Kristina is a doctoral student at the Center for Neural Science at NYU. She is a firm believer that policy should be informed by empirical evidence, and she is passionate about fighting for social justice and for the dignity of marginalized persons. She is currently collaborating with Solitary Watch to provide scientific evidence in favor of legislation that limits the largely unregulated use of solitary confinement in US prisons.</p>
+                        <p>Stephen is a doctoral student in developmental psychology at NYU. He is interested in how social and biological factors contribute to learning and cognitive development, particularly within the context of stress and poverty. Ultimately, he hopes that his research will inform education and health policy.</p>
                     </div>
                 </div>
+
 
             </div>
 
@@ -331,9 +332,23 @@
                             </a>
                         </h4>
 
-                        <p>Milenna is a doctoral student in neuroscience at the NYU School of Medicine. She is working on ScAAN’s Raise the Age project, and is also interested in supporting campaigns that work to restrict solitary confinement. Specifically, she is gathering research findings that demonstrate the trauma and long-term negative consequences of solitary confinement of juveniles and of juveniles being held in adult jails and prisons.</p>
+                        <p>Milenna is a doctoral student in neuroscience at the NYU School of Medicine. She is project co-leader on ScAAN's collaboration with the NY Campaign for Alternatives to Isolated Confinement and Solitary Watch.</p>
                     </div>
                 </div>
+
+                <div class="media member">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/kristina_sq.jpg">
+                    <div class="media-body">
+                        <h4 class="mt-0">Kristina Penikis
+                            <a class="email" href="mailto:kbp254@nyu.edu" title="kbp254@nyu.edu">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </h4>
+
+                        <p>Kristina is a doctoral student at the Center for Neural Science at NYU. She is project co-leader on ScAAN's collaboration with the NY Campaign for Alternatives to Isolated Confinement and Solitary Watch. She is a firm believer that policy should be informed by empirical evidence, and she is passionate about fighting for social justice and for the dignity of marginalized persons.</p>
+                    </div>
+                </div>
+
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
@@ -361,18 +376,6 @@
                     </div>
                 </div>
 
-                <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/stephen_sq.jpg">
-                    <div class="media-body">
-                        <h4 class="mt-0">Stephen Braren
-                            <a class="email" href="mailto:stephen.braren@nyu.edu" title="stephen.braren@nyu.edu">
-                                <i class="fa fa-envelope"></i>
-                            </a>
-                        </h4>
-
-                        <p>Stephen is a doctoral student in developmental psychology at NYU. He is interested in how social and biological factors contribute to learning and cognitive development, particularly within the context of stress and poverty. Ultimately, he hopes that his research will inform education and health policy.</p>
-                    </div>
-                </div>
             </div>
         </div>
 
