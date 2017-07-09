@@ -196,13 +196,13 @@
                         <div class="swiper-slide">
                             <figure>
                                 <img class="img-fluid" src="img/carousel/jess_16by9.jpg">
-                                <figcaption>Jess Minder (front row, fourth from left) went to D.C. with the <a href="http://www.ucsusa.org/">Union of Concerned Scientists</a> and met with Sen. Kirsten Gillibrand (center). <span class="lightGrayText">Apr 27, 2017</span></figcaption>
+                                <figcaption>In partnership with <a href="http://www.ucsusa.org/">Union of Concerned Scientists</a>, Jess Minder (front row, pink) met with Sen. Kirsten Gillibrand (center) and other members of Congress to advocate for climate solutions. <span class="lightGrayText">Apr 27, 2017</span></figcaption>
                             </figure>
                         </div>
                         <div class="swiper-slide">
                             <figure>
                                 <img class="img-fluid" src="img/carousel/hill_day_16by9.jpg">
-                                <figcaption>Will Adler (3rd from left) went to the Hill with the <a href="http://www.sfn.org/">Society for Neuroscience</a> to advocate for biomedical science funding. <span class="lightGrayText">Mar 23, 2017. Photo: <a href="http://www.sfn.org/">SfN</a></span></figcaption>
+                                <figcaption>Will Adler (3rd from left) went to Capitol Hill with the <a href="http://www.sfn.org/">Society for Neuroscience</a> to advocate for biomedical science funding. <span class="lightGrayText">Mar 23, 2017. Photo: <a href="http://www.sfn.org/">SfN</a></span></figcaption>
                             </figure>
                         </div>
                         <div class="swiper-slide">
@@ -210,7 +210,7 @@
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <iframe src="https://www.youtube.com/embed/NtOCNdDA5BU?showinfo=0&rel=0" allowfullscreen></iframe>
                                 </div>
-                                <figcaption>We hosted speakers from <a href="#rta">Raise the Age NY</a>, <a href="http://solitarywatch.com/">Solitary Watch</a>, and the <a href="http://www.courtinnovation.org/">Center for Court Innovation</a> to talk about the role of science in criminal justice reform. Silvia Lopez-Guzman (right) moderated a panel discussion. <span class="lightGrayText">May 30, 2017</span></figcaption>
+                                <figcaption>We hosted speakers from our partnering organizations to talk about the role of science in criminal justice reform. <span class="lightGrayText">May 30, 2017</span></figcaption>
                             </figure>
                         </div>
                     </div>
