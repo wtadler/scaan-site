@@ -274,7 +274,7 @@ input, textarea, select, button {
 	bottom: 1rem;
 	background-color: rgba(0,0,0,.5);
 	color: white;
-	padding: 2px 10px;
+	padding: 2px 7px 5px 7px;
 	line-height: normal;
 }
 
