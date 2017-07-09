@@ -6,7 +6,7 @@ $sendTo = 'will@wtadler.com';
 $subject = 'ScAAN: Scientist Action and Advocacy Network';
 $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Thanks for contacting us. You\'ll hear back from us soon!';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$errorMessage = 'There was an error while submitting the form. Please try contacting us via email instead.';
 
 // let's do the sending
 
@@ -20,8 +20,11 @@ try
         }
     }
 
-    mail($sendTo, $subject, $emailText, "From: " . $_POST[email]);
+    if (preg_match('/Name: [0-9]{2}[a-z0-9]{11}/', $emailText)) {
+        throw new Exception('Invalid name.');
+    }
 
+    mail($sendTo, $subject, $emailText, "From: " . $_POST[email]);
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (\Exception $e)

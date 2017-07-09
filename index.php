@@ -19,73 +19,20 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     
-    <!-- Custom styles for this template -->
     <link href="scaan.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+    
     <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js'></script>
-    <script src='fullcalendar/fullcalendar.min.js'></script>
-    <script type='text/javascript' src='fullcalendar/gcal.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 
-    <script type='text/javascript'>
-      $(document).ready(function() {
-          $('#calendar').fullCalendar({
-            defaultView: 'list',
-                // defaultDate: moment(),
-
-                header: false,
-
-                height: 302,
-
-                views: {
-                	list: {
-                		duration: { days: 90 },
-                		listDayAltFormat: 'dddd',
-                	}
-                },
-
-                googleCalendarApiKey: 'AIzaSyB-VH_jUYf0thQ9HiZQdndaJVeWtDdh1L8',
-                events: {
-                  googleCalendarId: 'nyu.edu_ifm76t83fckh8jviji92irkjk8@group.calendar.google.com'
-              },
-
-              eventRender: function(event, element, view) {
-                  if (event.location) {
-                     element.find(".fc-list-item-title")
-                     .append("<div class='small grayText'>" + event.location + "</div>");
-                 }
-             }
-
-         });
-      });
-  </script>
-
-  <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-89937713-1', 'auto');
-      ga('send', 'pageview');
-  </script>  
-  <script src="https://use.fontawesome.com/7b8eff5c01.js"></script>
 </head>
 
 <body>
 
 
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=249866681730592";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <script src="facebook_widget.js"></script>
 
     <div class="jumbotron">
         <div class="container">
@@ -106,13 +53,13 @@
             <div class="col-md">
                 <h2>Action</h2>
                 <h4><em>Pro bono</em> science</h4>
-                <p>Our members are doctoral students, PhD-holding research scientists, and professors who donate their skilled labor and expertise to our partner organizations. We can help formulate questions that can be answered with data, analyze pre-existing data, and figure out how to act on the results. We can also serve as guides to particular domains of scientific knowledge.</p>
+                <p>Our members are doctoral students, PhD-holding research scientists, and professors who donate their skilled labor and expertise to our partner organizations. We compile brief, targeted literature reviews, and analyze pre-existing data. We can also serve as guides to particular domains of scientific knowledge.</p>
             </div>
 
             <div class="col-md">
                 <h2>Advocacy</h2>
                 <h4>Lobbying and outreach</h4>
-                <p>We organize actions to encourage our elected officials to support both evidence-based policies and scientific discovery. We also promote candidates with pro-science platforms.</p>
+                <p>In partnership with organizations such as the <a href="http://www.ucsusa.org/">Union of Concerned Scientists</a> and the <a href="http://www.sf.org/">Society for Neuroscience</a>, our members have lobbied our elected officials to support evidence-based policies and scientific discovery. We also promote candidates with pro-science platforms.</p>
             </div>
         </div>
 
@@ -120,17 +67,18 @@
 
         <div class="row">
             <div class="col-md-9">
+                <div id="project-section">
                 <h2>Current Partnerships</h2>
 
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#rta" role="tab">Raise the Age NY</a>
+                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link active" data-toggle="tab" href="#rta" role="tab">Raise the Age NY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#caic" role="tab">NY CAIC & Solitary Watch</a>
+                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link" data-toggle="tab" href="#caic" role="tab">NY CAIC & Solitary Watch</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#met" role="tab">Metropolitan Council on Housing</a>
+                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link" data-toggle="tab" href="#met" role="tab">Metropolitan Council on Housing</a>
                     </li>
                 </ul>
 
@@ -151,16 +99,22 @@
 
                             <div class="row">
                                 <div class="col-lg">
-                                    <img class="img-fluid fitWidth" src="img/jenn_presser_16by9_sm.jpg">
+                                    <figure>
+                                        <img class="img-fluid" src="img/jenn_presser_16by9_sm.jpg">
 
-                                    <div class="small grayText caption">In March 2017, Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY.</div>
+                                        <figcaption class="small grayText">In March 2017, Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY.</figcaption>
+                                    </figure>
                                 </div>
 
                                 <div class="col-lg">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?showinfo=0&rel=0" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="small grayText caption">In January 2017, Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council.</div>
+                                    <figure>
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?showinfo=0&rel=0" allowfullscreen></iframe>
+                                        </div>
+                                        <figcaption class="small grayText">
+                                            In January 2017, Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council.
+                                        </figcaption>
+                                    </figure>
                                 </div>
                             </div>
 
@@ -200,23 +154,27 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
 
             <div class="col-md-3 hidden-sm-down">
-                <h2>Facebook</h2>
-                <div class="fitWidth">
-                    <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
+                <div id="facebook-twitter-header">
+                    <h2>Facebook</h2>
+                    <div class="img-fluid" id="fb-widget">
+                        <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
+                    </div>
+
+                    <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
                 </div>
-
-                <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
-
                 <div class="grayBorder">
-                    <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
+                    <a id="twitter-timeline" class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
                     data-chrome="nofooter noheader noborders noscrollbar"
                     data-dnt="true"
-                    data-height="450"></a>
+                    data-height="800"></a>
                 </div>
+
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
             </div>
 
         </div>
@@ -224,35 +182,45 @@
         <hr class="grayBorder">
 
         <div class="row">
-            <div class="col-md-6">
-                <h2>Contact Us</h2>
-                Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
-                <ul>
-                    <li>a scientist who wants to get involved</li>
-                    <li>an organization that is interested in partnering with us on a project</li>
-                </ul>
-                <p>
-                    <form id="contact-form" method="post" action="scripts/contact.php" role="form">
-                        <div class="controls">
-                            <div class="form-group">
-                                <input id="form_name" type="text" name="name" class="form-control grayBorder" placeholder="Name" required="required" data-error="Your name is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <input id="form_email" type="email" name="email" class="form-control grayBorder" placeholder="Email" required="required" data-error="A valid email is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <textarea id="form_message" name="message" class="form-control grayBorder" placeholder="Message" rows="5" required="required" data-error="A message is required."></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="messages"></div>
-                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+            <div class="col-lg-8">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <figure>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/a64MWE6PLwM?showinfo=0&rel=0" allowfullscreen></iframe>
+                                </div>
+                                <figcaption>At the D.C. March for Science, Will Adler gave a talk  about ScAAN as a model for using science to promote social change. <span class="lightGrayText">Apr 22, 2017</span></figcaption>
+                            </figure>
                         </div>
-                    </form>
-                </p>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img class="img-fluid" src="img/carousel/jess_16by9.jpg">
+                                <figcaption>Jess Minder (front row, fourth from left) went to D.C. with the <a href="http://www.ucsusa.org/">Union of Concerned Scientists</a> and met with Sen. Kirsten Gillibrand (center). <span class="lightGrayText">Apr 27, 2017</span></figcaption>
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img class="img-fluid" src="img/carousel/hill_day_16by9.jpg">
+                                <figcaption>Will Adler (3rd from left) went to the Hill with the <a href="http://www.sfn.org/">Society for Neuroscience</a> to advocate for biomedical science funding. <span class="lightGrayText">Mar 23, 2017. Photo: <a href="http://www.sfn.org/">SfN</a></span></figcaption>
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/NtOCNdDA5BU?showinfo=0&rel=0" allowfullscreen></iframe>
+                                </div>
+                                <figcaption>We hosted speakers from <a href="#rta">Raise the Age NY</a>, <a href="http://solitarywatch.com/">Solitary Watch</a>, and the <a href="http://www.courtinnovation.org/">Center for Court Innovation</a> to talk about the role of science in criminal justice reform. Silvia Lopez-Guzman (right) moderated a panel discussion. <span class="lightGrayText">May 30, 2017</span></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"><i class="fa fa-arrow-left"></i></div>
+                    <div class="swiper-button-next"><i class="fa fa-arrow-right"></i></div>
+                </div>
             </div>
-            <div class="col-md-6">
+
+            <div class="col-lg-4">
                 <h2>Upcoming Events</h2>
                 <div class="small calendarWarning grayText">To ensure access to the building, please contact us before coming to your first general meeting or working group.</div>
                 <div id='calendar'></div>
@@ -282,6 +250,7 @@
                         <p>Will is the founder of ScAAN and a doctoral student in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and bridging the gap between scientists and organizations working in the public interest.</p>
                     </div>
                 </div>
+
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/weiji_sq.jpg">
                     <div class="media-body bio">
@@ -294,7 +263,6 @@
                         <p>Wei Ji is an associate professor of neural science and psychology at NYU, where <a href="http://www.cns.nyu.edu/malab/" title="Ma Lab">his research group</a> studies human decision-making, perception, and working memory. He is the first author of an upcoming textbook on mathematical models of behavior. He has long-standing interests in education policy, non-profit management, and science outreach. He is the co-founder and chairman of the board of the <a href="http://ruralchina.org" title="Rural China Education Foundation">Rural China Education Foundation</a>, a 501(c)(3) non-profit organization which aims to improve the quality of primary education in rural China through student-centered teaching methods, community-based content, and sustainable teacher professional development.</p>
                     </div>
                 </div>
-
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
@@ -309,31 +277,16 @@
                     </div>
                 </div>
 
-
-
                 <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/jenn_sq.jpg">
-                    <div class="media-body bio">
-                        <h4 class="mt-0">Jenn Laura Lee
-                            <a class="email" href="mailto:jenn.laura.lee@gmail.com" title="jenn.laura.lee@gmail.com">
-                                <i class="fa fa-envelope"></i>
-                            </a>
-                        </h4>
-
-                        <p>Jenn is a doctoral student in the Center for Neural Science at NYU. She is the project leader for ScAAN's collaboration with Raise the Age NY. She is interested in forming more collaborations with public advocacy groups, particularly around issues of criminal justice.</p>
-                    </div>
-                </div>
-
-                <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/leana_sq.jpg">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/kristina_sq.jpg">
                     <div class="media-body">
-                        <h4 class="mt-0">Leana King
-                            <a class="email" href="mailto:lek338@nyu.edu" title="lek338@nyu.edu">
+                        <h4 class="mt-0">Kristina Penikis
+                            <a class="email" href="mailto:kbp254@nyu.edu" title="kbp254@nyu.edu">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
 
-                        <p>Leana is a neural science student and researcher at NYU, and is interested in how good design can produce effective advocacy.</p>
+                        <p>Kristina is a doctoral student in the Center for Neural Science at NYU. She is project co-leader on ScAAN's collaboration with the NY Campaign for Alternatives to Isolated Confinement and Solitary Watch. She is a firm believer that policy should be informed by empirical evidence, and she is passionate about fighting for social justice and for the dignity of marginalized persons.</p>
                     </div>
                 </div>
 
@@ -349,8 +302,6 @@
                         <p>Stephen is a doctoral student in developmental psychology at NYU. He is interested in how social and biological factors contribute to learning and cognitive development, particularly within the context of stress and poverty. Ultimately, he hopes that his research will inform education and health policy.</p>
                     </div>
                 </div>
-
-
             </div>
 
             <div class="col-md-6">
@@ -368,7 +319,6 @@
                     </div>
                 </div>
 
-
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/ali_sq.jpg">
                     <div class="media-body bio">
@@ -381,7 +331,6 @@
                         <p>Ali is a postdoctoral developmental cognitive neuroscientist in the Hartley Lab at NYU. Her graduate studies at the intersection of law and neuroscience have extended her longstanding enthusiasm for science outreach into thoughtful advocacy for scientifically-informed policy.</p>
                     </div>
                 </div>
-
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/milenna_sq.jpg">
@@ -397,18 +346,17 @@
                 </div>
 
                 <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/kristina_sq.jpg">
-                    <div class="media-body">
-                        <h4 class="mt-0">Kristina Penikis
-                            <a class="email" href="mailto:kbp254@nyu.edu" title="kbp254@nyu.edu">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/jenn_sq.jpg">
+                    <div class="media-body bio">
+                        <h4 class="mt-0">Jenn Laura Lee
+                            <a class="email" href="mailto:jenn.laura.lee@gmail.com" title="jenn.laura.lee@gmail.com">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
 
-                        <p>Kristina is a doctoral student in the Center for Neural Science at NYU. She is project co-leader on ScAAN's collaboration with the NY Campaign for Alternatives to Isolated Confinement and Solitary Watch. She is a firm believer that policy should be informed by empirical evidence, and she is passionate about fighting for social justice and for the dignity of marginalized persons.</p>
+                        <p>Jenn is a doctoral student in the Center for Neural Science at NYU. She is the project leader for ScAAN's collaboration with Raise the Age NY. She is interested in forming more collaborations with public advocacy groups, particularly around issues of criminal justice.</p>
                     </div>
                 </div>
-
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/david_sq.jpg">
@@ -422,7 +370,6 @@
                         <p>David is a doctoral student in psychology at NYU. He is interested in the intersection of public policy and cognitive/behavioral science. Within ScAAN, he is interested in using psychology to inform progressive political campaigns and to get out the vote. He is currently working with the Metropolitan Council on Housing to collect and make better use of their own data.</p>
                     </div>
                 </div>
-
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/andra_sq.jpg">
@@ -443,7 +390,7 @@
         <div class="hidden-md-up">
             <hr class="grayBorder">
             <h2>Facebook</h2>
-            <div class="fitWidth">
+            <div class="img-fluid">
                 <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
             </div>
 
@@ -456,20 +403,65 @@
             </div>
         </div>
 
+        <hr class="grayBorder">
+
+        <div class="col-md-7">
+        <h2>Contact Us</h2>
+        Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
+        <ul>
+            <li>a scientist who wants to get involved</li>
+            <li>an organization that is interested in partnering with us on a project</li>
+        </ul>
+        <p>
+            <form id="contact-form" method="post" action="scripts/contact.php" role="form">
+                <div class="controls">
+                    <div class="form-group">
+                        <input id="form_name" type="text" name="name" class="form-control grayBorder" placeholder="Name" required="required" data-error="Your name is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input id="form_email" type="email" name="email" class="form-control grayBorder" placeholder="Email" required="required" data-error="A valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="form_message" name="message" class="form-control grayBorder" placeholder="Message" rows="5" required="required" data-error="A message is required."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="messages"></div>
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+            </form>
+        </p>
+        </div>
+
 
         <hr class="grayBorder">
-        <footer>
-            <p>&copy; Scientist Action and Advocacy Network <?php echo date("Y"); ?></p>
-        </footer>
+        <span class="small">&copy; Scientist Action and Advocacy Network <?php echo date("Y"); ?></small>
 
     </div> <!-- /.container-->
 
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script>window.jQuery || document.write('<script src="scripts/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="scripts/jquery.min.js"><\/script>')</script> <!-- load local jquery if can't get remote -->
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="scripts/swiper_options.js"></script>       
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js'></script>    
+    <script src='fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='fullcalendar/gcal.js'></script>
+    <script type='text/javascript' src='scripts/calendar_options.js'></script>
+
+    <script src='scripts/google_analytics.js'></script>
+
+    <script src="https://use.fontawesome.com/7b8eff5c01.js"></script>
+
+    <script src="scripts/twitter_timeline_height.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
 

@@ -34,101 +34,6 @@ hr {
 	margin-bottom: 1rem;
 }
 
-img.logo {
-	height: 2.3rem;
-	margin-bottom: 0.4rem;
-	margin-top: 0.3rem;
-	margin-right: 1.4rem;
-}
-
-footer {
-	font-size:.9rem;
-}
-
-#addGCal {
-	text-align: right;
-	position: relative;
-	top: 1px;
-}
-
-.projectpartnerlogo {
-	width: 100px;
-	float: left;
-	margin-right: 1.5rem;
-	margin-bottom: 0.6rem;
-	margin-top: 0.25rem;
-}
-
-.logoblock {
-	text-align: center;
-}
-
-img.headshot {
-	width: 85px;
-}
-
-.bio p {
-	margin-bottom: .3rem;
-	
-	line-height: 1.4rem;
-}
-
-.member {
-	margin-bottom: .5rem;
-}
-
-.email {
-	margin-left: 1.2rem;
-}
-
-h4 .fa-angle-down {
-	margin-left: 0.6rem;
-}
-
-.fa-envelope {
-	font-size: 1.2rem !important;
-	position: relative;
-	bottom: 2px;
-	padding-bottom: 1px;
-}
-
-.fa-envelope:hover {
-	border-bottom: 2px solid;
-	margin-bottom: -2px;
-}
-
-
-
-input, textarea, select, button {
-	font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-}
-
-.form-group {
-	margin-bottom: 0.5rem;
-}
-
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	height: 0;
-}
-
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	margin: auto;
-}
-
-
-.videoWrapperWrapper {
-	max-width: 550px;
-	position: relative;
-	margin: auto;
-}
-
 .small {
 	font-size: 0.9rem;
 }
@@ -137,23 +42,16 @@ input, textarea, select, button {
 	color: #999;
 }
 
-.calendarWarning {
-	margin-top: -.5rem;
-	margin-bottom: .4rem;
-}
-
-.fc-list-item {
-	border-bottom: 1px solid #ddd;
+.lightGrayText {
+	color: #afafaf;
 }
 
 .grayBorder {
 	border: 1px solid #ddd;
 }
 
-.follow-button {
-	float: right;
-	position: relative;
-	top: 0.65em;
+.fitWidth {
+	max-width: 100%;
 }
 
 .project-block {
@@ -166,19 +64,11 @@ input, textarea, select, button {
 	margin-bottom: 16px;
 }
 
-.twitter-timeline {
-	margin-bottom: -8px !important;
-}
-
-.fitWidth {
-	max-width: 100%;
-}
-
 .lastPara {
 	margin-bottom: 0;
 }
 
-.caption {
+#rta figcaption {
 	margin-bottom: 0.5rem;
 }
 
@@ -209,13 +99,13 @@ input, textarea, select, button {
 
 @media (max-width: 405px) {
 	.nav-tabs .nav-link {
-	height: 113px;
+		height: 113px;
 	}
 }
 
 @media (min-width: 406px) and (max-width: 457px) {
 	.nav-tabs .nav-link {
-	height: 89px;
+		height: 89px;
 	}
 }
 
@@ -228,4 +118,178 @@ input, textarea, select, button {
 a.nav-link {
 	display: table-cell;
 	vertical-align: bottom;
+}
+
+img.logo {
+	height: 2.3rem;
+	margin-bottom: 0.4rem;
+	margin-top: 0.3rem;
+	margin-right: 1.4rem;
+}
+
+.projectpartnerlogo {
+	width: 100px;
+	float: left;
+	margin-right: 1.5rem;
+	margin-bottom: 0.6rem;
+	margin-top: 0.25rem;
+}
+
+.logoblock {
+	text-align: center;
+}
+
+.twitter-timeline {
+	margin-bottom: -8px !important;
+	width: 100%;
+}
+
+.follow-button {
+	float: right;
+	position: relative;
+	top: 0.65em;
+}
+
+img.headshot {
+	width: 85px;
+}
+
+.bio p {
+	margin-bottom: .3rem;
+	
+	line-height: 1.4rem;
+}
+
+.member {
+	margin-bottom: .5rem;
+}
+
+.email {
+	margin-left: 1.2rem;
+}
+
+.fa-envelope {
+	font-size: 1.2rem !important;
+	position: relative;
+	bottom: 2px;
+	padding-bottom: 1px;
+}
+
+.fa-envelope:hover {
+	border-bottom: 2px solid;
+	margin-bottom: -2px;
+}
+
+
+/*Contact form*/
+input, textarea, select, button {
+	font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.form-group {
+	margin-bottom: 0.5rem;
+}
+
+
+/*YouTube styling*/
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.videoWrapperWrapper {
+	max-width: 550px;
+	position: relative;
+	margin: auto;
+}
+
+
+
+/*Full Calendar*/
+#calendar {
+	font-size: 0.9rem !important;
+}
+
+.calendarWarning {
+	margin-top: -.5rem;
+	margin-bottom: .4rem;
+}
+
+.fc-list-heading {
+	line-height: 1em;
+}
+
+.fc-list-item {
+	border-bottom: 1px solid #ddd;
+	line-height: 1.2em;
+}
+
+#addGCal {
+	text-align: right;
+	position: relative;
+	top: 1px;
+}
+
+
+/*Swiper slideshow*/
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: -5px !important;
+}
+
+.swiper-pagination-bullet-active {
+	background: #000073 !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+	background-image: none !important;
+	color: white;
+	font-size: 3em !important;
+	width: 50px !important;
+	height: 50px !important;
+	line-height: 50px !important;
+	-webkit-filter: drop-shadow(1px 1px 2px #000)
+}
+
+.swiper-button-next {
+	text-align: right;
+}
+
+.swiper-slide a {
+	color: #dadaff;
+	text-decoration: underline;
+}
+
+.swiper-slide figcaption {
+	position: absolute;
+	bottom: 1rem;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	padding: 2px 10px;
+	/*width: 100%;*/
+}
+
+@media (max-width: 551px) {
+	.swiper-slide figcaption {
+		font-size: 0.78em;
+	}
+}
+
+@media (min-width: 552px) and (max-width: 767px) {
+	.swiper-slide figcaption {
+		font-size: 0.88em;
+	}
+}
+
+.swiper-wrapper {
+	width: 100%;
 }
