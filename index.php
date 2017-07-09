@@ -102,7 +102,7 @@
                                     <figure>
                                         <img class="img-fluid" src="img/jenn_presser_16by9_sm.jpg">
 
-                                        <figcaption class="small grayText">In March 2017, Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY.</figcaption>
+                                        <figcaption class="small grayText">Jenn Laura Lee spoke at the Suffolk County Legislature Building in Long Island, NY. Mar 29, 2017.</figcaption>
                                     </figure>
                                 </div>
 
@@ -112,7 +112,7 @@
                                             <iframe src="https://www.youtube.com/embed/wxQ4FQhnqrY?showinfo=0&rel=0" allowfullscreen></iframe>
                                         </div>
                                         <figcaption class="small grayText">
-                                            In January 2017, Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council.
+                                            Wei Ji Ma delivered a <nobr><a href="docs/ScAAN_NYCC_RTA_testimony.pdf" download>statement <i class="fa fa-file-pdf-o"></i></a></nobr> to a joint committee meeting of the New York City Council. Jan 19, 2017.
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -120,7 +120,7 @@
 
                             <p style="margin-top: 1rem;">You can <nobr><a href="docs/ScAAN_RTA_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
 
-                            <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
+                            <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_RTA_report.pdf&embedded=true" class="grayBorder pdfreader" frameborder="0"></iframe>
 
                             <p class="lastPara">In April 2017, after years of debate, Governor Cuomo signed legislation to raise the age of criminal responsibility to 18 years of age.</p>
                         </div>
@@ -136,7 +136,7 @@
 
                             <p>We compiled a brief report on the psychological and neurological consequences of solitary confinement. The NY Campaign for Alternatives to Isolated Confinement has used the report to lobby for the HALT Act in Albany. You can <nobr><a href="docs/ScAAN_Solitary_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
 
-                            <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_Solitary_report.pdf&embedded=true" class="grayBorder" style="width:100%; height:400px; margin-top: -0.8rem; margin-bottom: 1rem" frameborder="0"></iframe>
+                            <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_Solitary_report.pdf&embedded=true" class="grayBorder pdfreader" frameborder="0"></iframe>
 
                             <p class="lastPara">Additionally, we have partnered with <a href="http://solitarywatch.com/">Solitary Watch</a>, a national watchdog agency. Our next project is to make factsheets for their website, in order to increase public awareness of the effects of solitary confinement. We also plan to help them analyze survey data that is currently being collected from prisoners in solitary confinement.</p>
                         </div>
@@ -164,7 +164,7 @@
                         <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
                     </div>
 
-                    <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
+                    <h2 class="twitter">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
                 </div>
                 <div class="grayBorder">
                     <a id="twitter-timeline" class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
@@ -247,7 +247,7 @@
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
-                        <p>Will is the founder of ScAAN and a doctoral student in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists, and bridging the gap between scientists and organizations working in the public interest.</p>
+                        <p>Will is the founder of ScAAN and a doctoral student in the Center for Neural Science at NYU. He is passionate about building a network of volunteer scientists and bridging the gap between scientists and organizations working in the public interest.</p>
                     </div>
                 </div>
 
@@ -266,7 +266,7 @@
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
-                    <div class="media-body">
+                    <div class="media-body bio">
                         <h4 class="mt-0">EG Gaffin-Cahn, MA
                             <a class="email" href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
                                 <i class="fa fa-envelope"></i>
@@ -279,7 +279,7 @@
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/kristina_sq.jpg">
-                    <div class="media-body">
+                    <div class="media-body bio">
                         <h4 class="mt-0">Kristina Penikis
                             <a class="email" href="mailto:kbp254@nyu.edu" title="kbp254@nyu.edu">
                                 <i class="fa fa-envelope"></i>
@@ -292,7 +292,7 @@
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/stephen_sq.jpg">
-                    <div class="media-body">
+                    <div class="media-body bio">
                         <h4 class="mt-0">Stephen Braren
                             <a class="email" href="mailto:stephen.braren@nyu.edu" title="stephen.braren@nyu.edu">
                                 <i class="fa fa-envelope"></i>
@@ -360,7 +360,7 @@
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/david_sq.jpg">
-                    <div class="media-body">
+                    <div class="media-body bio">
                         <h4 class="mt-0">David Halpern
                             <a class="email" href="mailto:david.halpern@nyu.edu" title="david.halpern@nyu.edu">
                                 <i class="fa fa-envelope"></i>
@@ -373,7 +373,7 @@
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/andra_sq.jpg">
-                    <div class="media-body">
+                    <div class="media-body bio">
                         <h4 class="mt-0">Andra Mihali
                             <a class="email" href="mailto:andra.mihali@nyu.edu" title="andra.mihali@nyu.edu">
                                 <i class="fa fa-envelope"></i>
@@ -393,8 +393,8 @@
             <div class="img-fluid">
                 <div class="fb-page" data-href="https://www.facebook.com/ScientistAction/" data-small-header="true" data-adapt-container-width="true" data-width="800px" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ScientistAction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ScientistAction/">Scientist Action and Advocacy Network</a></blockquote></div>
             </div>
-
-            <h2 style="margin-top:1rem;">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
+            
+            <h2 class="twitter">Tweets <a class="small" href="https://twitter.com/ScientistAction">@ScientistAction</a></h2>
 
             <div class="grayBorder">
                 <a class="twitter-timeline" data-theme="light" data-link-color="#0275d8" href="https://twitter.com/ScientistAction"
