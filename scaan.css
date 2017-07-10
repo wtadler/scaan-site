@@ -57,6 +57,7 @@ hr {
 
 figcaption {
 	line-height: 1.25;
+	pointer-events: none;
 }
 
 .project-block {
