@@ -306,7 +306,7 @@
                             </a>
                         </h4>
 
-                        <p>Jessica is a doctoral student in the NYU Sackler Institute. She is interested in using scientific literature to inform decisions on policy in criminal justice reform. She is also involved in ScAAN's efforts to lobby elected officials about the critical need for strong funding of science research.</p>
+                        <p>Jessica is a doctoral student in the NYU Sackler Institute. She is interested in using scientific literature to inform criminal justice policy. She is also involved in ScAAN's efforts to lobby elected officials about the critical need for strong funding of science research.</p>
                     </div>
                 </div>
 
