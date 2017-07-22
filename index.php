@@ -271,30 +271,45 @@
                 </div>
 
                 <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/milenna_sq.jpg">
                     <div class="media-body bio">
-                        <h4 class="mt-0">EG Gaffin-Cahn, MA
-                            <a class="email" href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
+                        <h4 class="mt-0">Milenna van Dijk, MSc
+                            <a class="email" href="mailto:milenna.vandijk@gmail.com" title="milenna.vandijk@gmail.com">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
 
-                        <p>EG is a doctoral student in psychology at NYU. He is a promoter of open access and uncensored government-funded research. He is also interested in building the public's trust in science as a means to improving the long-term well-being of our society.</p>
+                        <p>Milenna is a doctoral student in the NYU Sackler Institute. She is project co-leader on ScAAN's collaboration with the NY Campaign for Alternatives to Isolated Confinement and Solitary Watch.</p>
+                    </div>
+                </div>
+
+
+                <div class="media member">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/andra_sq.jpg">
+                    <div class="media-body bio">
+                        <h4 class="mt-0">Andra Mihali
+                            <a class="email" href="mailto:andra.mihali@nyu.edu" title="andra.mihali@nyu.edu">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </h4>
+
+                        <p>Andra is a doctoral student in the Center for Neural Science at NYU. Andra has worked with Raise the Age NY and Solitary Watch, and is interested in how psychology and neuroscience can enhance understanding of human behavior and aid social justice.</p>
                     </div>
                 </div>
 
                 <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/kristina_sq.jpg">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/jess_sq.jpg">
                     <div class="media-body bio">
-                        <h4 class="mt-0">Kristina Penikis
-                            <a class="email" href="mailto:kbp254@nyu.edu" title="kbp254@nyu.edu">
+                        <h4 class="mt-0">Jessica Minder
+                            <a class="email" href="mailto:jessica.minder@nyumc.org" title="jessica.minder@nyumc.org">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
 
-                        <p>Kristina is a doctoral student in the Center for Neural Science at NYU. She is project co-leader on ScAAN's collaboration with the NY Campaign for Alternatives to Isolated Confinement and Solitary Watch. She is a firm believer that policy should be informed by empirical evidence, and she is passionate about fighting for social justice and for the dignity of marginalized persons.</p>
+                        <p>Jessica is a doctoral student in the NYU Sackler Institute. She is interested in using scientific literature to inform decisions on policy in criminal justice reform. She is also involved in ScAAN's efforts to lobby elected officials about the critical need for strong science research funding research.</p>
                     </div>
                 </div>
+
 
                 <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/stephen_sq.jpg">
@@ -334,20 +349,20 @@
                             </a>
                         </h4>
 
-                        <p>Ali is a postdoctoral developmental cognitive neuroscientist in the Hartley Lab at NYU. Her graduate studies at the intersection of law and neuroscience have extended her longstanding enthusiasm for science outreach into thoughtful advocacy for scientifically-informed policy.</p>
+                        <p>Ali is a postdoctoral developmental cognitive neuroscientist at NYU. Her graduate studies at the intersection of law and neuroscience have extended her longstanding enthusiasm for science outreach into thoughtful advocacy for scientifically-informed policy.</p>
                     </div>
                 </div>
 
                 <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/milenna_sq.jpg">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/eg_sq.jpg">
                     <div class="media-body bio">
-                        <h4 class="mt-0">Milenna van Dijk, MSc
-                            <a class="email" href="mailto:milenna.vandijk@gmail.com" title="milenna.vandijk@gmail.com">
+                        <h4 class="mt-0">EG Gaffin-Cahn, MA
+                            <a class="email" href="mailto:eg.gc@nyu.edu" title="eg.gc@nyu.edu">
                                 <i class="fa fa-envelope"></i>
                             </a>
                         </h4>
 
-                        <p>Milenna is a doctoral student in neuroscience at the NYU School of Medicine. She is project co-leader on ScAAN's collaboration with the NY Campaign for Alternatives to Isolated Confinement and Solitary Watch.</p>
+                        <p>EG is a doctoral student in psychology at NYU. He is a promoter of open access and uncensored government-funded research. He is also interested in building the public's trust in science as a means to improving the long-term well-being of our society.</p>
                     </div>
                 </div>
 
@@ -365,6 +380,19 @@
                 </div>
 
                 <div class="media member">
+                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/kristina_sq.jpg">
+                    <div class="media-body bio">
+                        <h4 class="mt-0">Kristina Penikis
+                            <a class="email" href="mailto:kbp254@nyu.edu" title="kbp254@nyu.edu">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </h4>
+
+                        <p>Kristina is a doctoral student in the Center for Neural Science at NYU. She is project co-leader on ScAAN's collaboration with the NY Campaign for Alternatives to Isolated Confinement and Solitary Watch. She is a firm believer that policy should be informed by empirical evidence, and she is passionate about fighting for social justice and for the dignity of marginalized persons.</p>
+                    </div>
+                </div>
+
+                <div class="media member">
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/david_sq.jpg">
                     <div class="media-body bio">
                         <h4 class="mt-0">David Halpern
@@ -374,19 +402,6 @@
                         </h4>
 
                         <p>David is a doctoral student in psychology at NYU. He is interested in the intersection of public policy and cognitive/behavioral science. Within ScAAN, he is interested in using psychology to inform progressive political campaigns and to get out the vote. He is currently working with the Metropolitan Council on Housing to collect and make better use of their own data.</p>
-                    </div>
-                </div>
-
-                <div class="media member">
-                    <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/andra_sq.jpg">
-                    <div class="media-body bio">
-                        <h4 class="mt-0">Andra Mihali
-                            <a class="email" href="mailto:andra.mihali@nyu.edu" title="andra.mihali@nyu.edu">
-                                <i class="fa fa-envelope"></i>
-                            </a>
-                        </h4>
-
-                        <p>Andra is a doctoral student in the Center for Neural Science at NYU. Andra has worked with Raise the Age NY and Solitary Watch, and is interested in how psychology and neuroscience can enhance understanding of human behavior and aid social justice.</p>
                     </div>
                 </div>
 
