@@ -78,13 +78,13 @@
 
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link active" data-toggle="tab" href="#rta" role="tab">Raise the Age NY</a>
+                        <a class="nav-link active" data-toggle="tab" href="#rta" role="tab">Raise the Age NY</a>
                     </li>
                     <li class="nav-item">
-                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link" data-toggle="tab" href="#caic" role="tab">NY CAIC & Solitary Watch</a>
+                        <a class="nav-link" data-toggle="tab" href="#caic" role="tab">NY CAIC & Solitary Watch</a>
                     </li>
                     <li class="nav-item">
-                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link" data-toggle="tab" href="#met" role="tab">Metropolitan Council on Housing</a>
+                        <a class="nav-link" data-toggle="tab" href="#met" role="tab">Metropolitan Council on Housing</a>
                     </li>
                 </ul>
 
@@ -163,7 +163,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 hidden-sm-down">
+            <div class="col-md-3 hidden-sm-down facebook-twitter-container">
                 <div id="facebook-twitter-header">
                     <h2>Facebook</h2>
                     <div class="img-fluid" id="fb-widget">
