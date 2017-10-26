@@ -1435,7 +1435,7 @@ function formatRange(date1, date2, formatStr, separator, isRTL) {
 		getParsedFormatString(formatStr),
 		date1,
 		date2,
-		separator || ' - ',
+		separator || '\u2013',
 		isRTL
 	);
 }
