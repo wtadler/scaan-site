@@ -78,20 +78,49 @@
 
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link active" data-toggle="tab" href="#rta" role="tab">Raise the Age NY</a>
+                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link active" data-toggle="tab" href="#bagit" role="tab">BagItNYC</a>
                     </li>
                     <li class="nav-item">
+                        <a onclick="setTimeout(timeline_height, 1)" class="nav-link" data-toggle="tab" href="#rta" role="tab">Raise the Age NY</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other partnerships</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" onclick="setTimeout(timeline_height, 1)"  data-toggle="tab" href="#caic" role="tab">NY CAIC & Solitary Watch</a>
+                             <a class="dropdown-item" onclick="setTimeout(timeline_height, 1)"  data-toggle="tab" href="#met" role="tab">Metropolitan Council on Housing</a>
+                        </div>
+                    </li>
+
+<!--                     <li class="nav-item">
                         <a onclick="setTimeout(timeline_height, 1)" class="nav-link" data-toggle="tab" href="#caic" role="tab">NY CAIC & Solitary Watch</a>
                     </li>
                     <li class="nav-item">
                         <a onclick="setTimeout(timeline_height, 1)" class="nav-link" data-toggle="tab" href="#met" role="tab">Metropolitan Council on Housing</a>
                     </li>
+ -->                
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div class="tab-pane active" id="rta" role="tabpanel">
-                      
+
+                    <div class="tab-pane active" id="bagit" role="tabpanel">
+                        <div class="project-block top-block">
+<!--                             <div class="logoblock">
+                                <a href="http://bagitnyc.org/"><img class="projectpartnerlogo" src="logos/bagit.png"></a>
+                            </div>
+ -->
+                            <p>In 2016, the New York City Council adopted the "Bring your own bag" law, requiring that all retailers in NYC charge a 5-cent minimum fee for each carryout bag provided at checkout. A coalition of non-profits and community organizations, <a href="http://bagitnyc.org/">BagItNYC</a>, supported this legislation. However, the New York State Senate and Assembly voted in February 2017 to nullify the law, and on February 14, 2017 Governor Cuomo signed the moratorium bill into law. Under the moratorium, the NYC City Council cannot move forward with a new bill involving fees until January 1, 2018. However, Cuomo also established a <a href="https://www.governor.ny.gov/news/governor-cuomo-announces-launch-statewide-plastic-bag-task-force">Plastic Bag Task Force</a> to develop a statewide plan to reduce the use of single-use plastic bags.</p>
+
+                            <p>There are strong environmental reasons for reducing the use of single-use plastic bags, and there are strong economic and psychological reasons to favor a fee over other solutions such as a monetary incentive to bring a reusable bag. Therefore, ScAAN supports the efforts of BagItNYC and has prepared a knowledge brief to summarize scientific arguments for fee-based legislation to reduce single-use bag use. You can <nobr><a href="docs/ScAAN_Bags_report.pdf" download>download <i class="fa fa-file-pdf-o"></i></a></nobr> our full report or read it here:</p>
+
+                            <iframe src="http://docs.google.com/gview?url=http://scaan.net/docs/ScAAN_Bags_report.pdf&embedded=true" class="grayBorder pdfreader" frameborder="0"></iframe>
+
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane" id="rta" role="tabpanel">
                         <div class="project-block top-block">
                             <div class="logoblock">
                                 <a href="http://raisetheageny.com/"><img class="projectpartnerlogo" src="logos/raisetheage_square.png"></a>
