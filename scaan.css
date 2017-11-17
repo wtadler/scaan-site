@@ -107,7 +107,22 @@ figcaption {
 }
 
 
-@media (max-width: 405px) {
+/* this is for bags, RTA, others*/
+@media (max-width: 401px) {
+	.nav-tabs .nav-link {
+		height: 66px;
+	}
+}
+
+@media (min-width: 402px) and (max-width: 486px) {
+	.nav-tabs .nav-link {
+		height: 50px;
+	}
+}
+
+
+/* this was for when it was RTA, Solitary, Met*/
+/*@media (max-width: 405px) {
 	.nav-tabs .nav-link {
 		height: 113px;
 	}
@@ -117,7 +132,7 @@ figcaption {
 	.nav-tabs .nav-link {
 		height: 89px;
 	}
-}
+}*/
 
 @media (max-width: 472px) {
 	.projectpartnerlogo {
