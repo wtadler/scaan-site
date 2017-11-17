@@ -20,7 +20,7 @@ try
         }
     }
 
-    if (preg_match('/Name: [0-9]{2}[a-z0-9]{11}/', $emailText)) {
+    if (preg_match('/Name: [a-f0-9]{13}/', $emailText)) {
         throw new Exception('Invalid name.');
     }
 
