@@ -59,7 +59,9 @@
             <div class="col-md">
                 <h2>Action</h2>
                 <h4><em>Pro bono</em> science</h4>
-                <p>Our members are doctoral students, PhD-holding research scientists, and professors who donate their skilled labor and expertise to our partner organizations. We compile brief, targeted literature reviews, and analyze pre-existing data. We can also serve as guides to particular domains of scientific knowledge.</p>
+                <p>Our members are doctoral students, PhD-holding research scientists, and professors who donate their skilled labor and expertise to our partner organizations. We compile brief, targeted literature reviews, and analyze pre-existing data. We can also serve as guides to particular domains of scientific knowledge.
+                    Our current partners include <a href="http://raisetheageny.com">Raise the Age New York</a>, <a href="http://www.solitarywatch.com">Solitary Watch</a>, <a href="http://bagitnyc.org">BagItNYC</a>, <a href="http://metcouncilonhousing.org">the Metropolitan Council on Housing</a>. 
+                </p>
             </div>
 
             <div class="col-md">
@@ -68,13 +70,20 @@
                 <p>In partnership with organizations such as the <a href="http://www.ucsusa.org/">Union of Concerned Scientists</a> and the <a href="http://www.sf.org/">Society for Neuroscience</a>, our members have lobbied our elected officials to support evidence-based policies and scientific discovery. We also promote candidates with pro-science platforms.</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md">
+                <h2>ScAAN in the media</h2>
+                <p>ScAAN was most recently featured in the <a href="./docs/201711_SSIR_on_ScAAN.pdf">Stanford Social Innovation Review</a> and the <a href="http://www.apamonitor-digital.org/apamonitor/201711/MobilePagedArticle.action?articleId=1195165&app=false#articleId1195165">APA Monitor on Psychology</a>.</p>
+            </div>
+        </div>
+
 
         <hr class="grayBorder">
 
         <div class="row">
             <div class="col-md-9">
                 <div id="project-section">
-                <h2>Current Partnerships</h2>
+                <h2>Current partnerships</h2>
 
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
@@ -277,7 +286,7 @@
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/will2_sq.jpg">
                     <div class="media-body bio">
                         <h4 class="mt-0">
-                            <a href="http://wtadler.com/" title="wtadler.com">William T. Adler</a>
+                            <a href="http://wtadler.com/" title="wtadler.com">William T. Adler, PhD</a>
                             <a class="email" href="mailto:will@wtadler.com" title="will@wtadler.com">
                                 <i class="fa fa-envelope"></i>
                             </a>
@@ -359,7 +368,7 @@
                     <img class="d-flex align-self-start mr-3 rounded headshot" src="headshots/silvia2_sq.jpg">
                     <div class="media-body bio">
                         <h4 class="mt-0">
-                            Silvia Lopez-Guzman, MD
+                            Silvia Lopez-Guzman, MD, PhD
                             <a class="email" href="mailto:slg471@nyu.edu" title="slg471@nyu.edu">
                                 <i class="fa fa-envelope"></i>
                             </a>
