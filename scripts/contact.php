@@ -2,7 +2,7 @@
 
 // configure
 $from = 'info@scaan.net'; 
-$sendTo = 'will@wtadler.com';
+$sendTo = 'will@wtadler.com, jenn.laura.lee@gmail.com';
 $subject = 'ScAAN: Scientist Action and Advocacy Network';
 $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Thanks for contacting us. You\'ll hear back from us soon!';
