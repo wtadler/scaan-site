@@ -475,33 +475,34 @@
         </div>
 
         <hr class="grayBorder">
+        <div class="row">
+            <div class="col-md-7">
+            <h2>Contact Us</h2>
+            Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
+            <ul>
+                <li>a scientist who wants to get involved</li>
+                <li>an organization that is interested in partnering with us on a project</li>
+            </ul>
 
-        <div class="col-md-7">
-        <h2>Contact Us</h2>
-        Email us at <a href="mailto:info@scaan.net">info@scaan.net</a> or use the contact form if you are:
-        <ul>
-            <li>a scientist who wants to get involved</li>
-            <li>an organization that is interested in partnering with us on a project</li>
-        </ul>
-
-        <form id="contactform" action="https://formspree.io/info@scaan.net" method="POST">
-            <div class="controls">
-                <input type="text" name="name" class="form-control grayBorder" placeholder="Name" required>
-                <input type="email" name="email" class="form-control grayBorder" placeholder="Email" required>
-                <textarea name="message" class="form-control grayBorder" placeholder="Message" rows="5" required></textarea>
-                <input type="text" name="_gotcha" style="display:none" /> <!-- to fool scrapers -->
-                <p><input type="submit" class="btn btn-success btn-send" value="Send"></p>
+            <form id="contactform" action="https://formspree.io/info@scaan.net" method="POST">
+                <div class="controls">
+                    <input type="text" name="name" class="form-control grayBorder" placeholder="Name" required>
+                    <input type="email" name="email" class="form-control grayBorder" placeholder="Email" required>
+                    <textarea name="message" class="form-control grayBorder" placeholder="Message" rows="5" required></textarea>
+                    <input type="text" name="_gotcha" style="display:none" /> <!-- to fool scrapers -->
+                    <p><input type="submit" class="btn btn-success btn-send" value="Send"></p>
+                </div>
+            </form>
+            <!-- Hidden message to show if contact is successful. -->
+            <div id="submit-success" class="collapse alert alert-success">
+              <strong>Thanks!</strong> We've received your message, and we will be in touch soon!
             </div>
-        </form>
-        <!-- Hidden message to show if contact is successful. -->
-        <div id="submit-success" class="collapse alert alert-success">
-          <strong>Thanks!</strong> We've received your message, and we will be in touch soon!
-        </div>
 
-        <!-- Hidden message to show if there is an error. -->
-        <div id="submit-error" class="collapse alert alert-danger">
-          Sorry, there was a problem. Please make sure you filled out each field and that your email address is valid.
-        </div>
+            <!-- Hidden message to show if there is an error. -->
+            <div id="submit-error" class="collapse alert alert-danger">
+              Sorry, there was a problem. Please make sure you filled out each field and that your email address is valid.
+            </div>
+            </div>
         </div>
 
 
