@@ -483,37 +483,65 @@
             <li>a scientist who wants to get involved</li>
             <li>an organization that is interested in partnering with us on a project</li>
         </ul>
-        <p>
-            <form id="contact-form" method="post" action="scripts/contact.php" role="form">
-                <div class="controls">
-                    <div class="form-group">
-                        <input id="form_name" type="text" name="name" class="form-control grayBorder" placeholder="Name" required="required" data-error="Your name is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="form-group">
-                        <input id="form_email" type="email" name="email" class="form-control grayBorder" placeholder="Email" required="required" data-error="A valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="form_message" name="message" class="form-control grayBorder" placeholder="Message" rows="5" required="required" data-error="A message is required."></textarea>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="messages"></div>
-                    <input type="submit" class="btn btn-success btn-send" value="Send message">
-                </div>
-            </form>
-        </p>
+
+        <form id="contactform" action="https://formspree.io/will@wtadler.com" method="POST">
+            <div class="controls">
+                <input type="text" name="name" class="form-control grayBorder" placeholder="Name" required>
+                <input type="email" name="email" class="form-control grayBorder" placeholder="Email" required>
+                <textarea name="message" class="form-control grayBorder" placeholder="Message" rows="5" required></textarea>
+                <input type="text" name="_gotcha" style="display:none" /> <!-- to fool scrapers -->
+                <p><input type="submit" class="btn btn-success btn-send" value="Send"></p>
+            </div>
+        </form>
+        <!-- Hidden message to show if contact is successful. -->
+        <div id="submit-success" class="collapse alert alert-success">
+          <strong>Thanks!</strong> We've received your message, and we will be in touch soon!
+        </div>
+
+        <!-- Hidden message to show if there is an error. -->
+        <div id="submit-error" class="collapse alert alert-danger">
+          Sorry, there was a problem. Please make sure you filled out each field and that your email address is valid.
+        </div>
         </div>
 
 
         <hr class="grayBorder">
-        <span class="small">&copy; Scientist Action and Advocacy Network 2018</small>
+        <span class="small">&copy; Scientist Action and Advocacy Network 2016&ndash;<script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script></small>
 
     </div> <!-- /.container-->
 
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="scripts/jquery.min.js"><\/script>')</script> <!-- load local jquery if can't get remote -->
+    
+    <!-- validate form and send through formspree without sending users to a separate page, from http://www.austinzentz.com/2015/06/24/contact-forms-in-static-sites.html -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <script>
+    $("#contactform").validate({
+      submitHandler: function(form) {
+        $.ajax({
+          url: "//formspree.io/will@wtadler.com", 
+          method: "POST",
+          data: {
+            name: $(form).find("input[name='name']").val(),
+            email: $(form).find("input[name='email']").val(),
+            message: $(form).find("textarea[name='message']").val()
+          },
+          dataType: "json",
+          success: function() {
+            $("#submit-error").fadeOut();
+            $("#contactform").fadeOut();
+            $("#submit-success").fadeIn();
+          },
+          error: function() {
+            $("#submit-error").fadeIn();        
+          }
+        });
+      }
+    });
+    </script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
