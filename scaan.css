@@ -109,9 +109,9 @@ figcaption {
 
 
 /* this is for bags, RTA, others*/
-@media (max-width: 459px) {
+@media (max-width: 359px) {
 	.nav-tabs .nav-link {
-		height: 75px;
+		height: 60px;
 	}
 }
 
