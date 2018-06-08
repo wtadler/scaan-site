@@ -99,6 +99,7 @@ figcaption {
 .nav-tabs .nav-link {
 	border-bottom: 0px;
 	text-align: center;
+	/* height: 50px; */
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
@@ -108,15 +109,9 @@ figcaption {
 
 
 /* this is for bags, RTA, others*/
-@media (max-width: 401px) {
+@media (max-width: 359px) {
 	.nav-tabs .nav-link {
-		height: 66px;
-	}
-}
-
-@media (min-width: 402px) and (max-width: 486px) {
-	.nav-tabs .nav-link {
-		height: 50px;
+		height: 60px;
 	}
 }
 
@@ -134,15 +129,21 @@ figcaption {
 	}
 }*/
 
-@media (max-width: 472px) {
+@media (max-width: 370px) {
 	.projectpartnerlogo {
-		float: none;
+		float: none !important;
 	}
 }
-
+/*
 a.nav-link {
 	display: table-cell;
 	vertical-align: bottom;
+} */
+
+@media screen and (max-width: 500px) {
+	#waterfrontmap {
+		display: none;
+	}
 }
 
 img.logo {
@@ -218,9 +219,6 @@ img.headshot {
 /*Contact form*/
 input, textarea, select, button {
 	font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-}
-
-.form-group {
 	margin-bottom: 0.5rem;
 }
 
